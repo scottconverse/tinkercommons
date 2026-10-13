@@ -59,8 +59,9 @@ though the captain UI arrives in v2.0.
 
 ## 5. Core data model
 
-Entity list. Fields in `proximity-lpm-space-config.json` and `proximity-lpm-resources.json` seed the
-membership-class and booking-rule tables; add the columns marked **new**.
+Entity list. **No LPM records are used as seed data, fixtures or examples (Scott, 2026-10-13).** The
+Proximity JSON dumps in the research folder informed the field lists below and are otherwise retired; seed data
+is synthetic, generated for a fictional space. Add the columns marked **new**.
 
 - **Space** — one installation can hold several spaces (multi-location arrives v2.0; the column exists from v0.1).
 - **Person** — one row per human. Email, phone, emergency contact, photo, custom fields.
@@ -94,7 +95,7 @@ Two channels, same vocabulary:
 
 - **Pull:** device asks `GET /access/check?device=Y&credential=X` and receives allow/deny, reason, max session length, and a cache token. Devices may cache the last N allowed credentials for a configurable minutes-offline window.
 - **Push:** server publishes credential revocations and device config over MQTT; device publishes `session_start`, `session_end {seconds, units}`, `door_opened`, `tamper`, `heartbeat`.
-- **Adapters** translate for hardware that cannot speak this directly: Kisi (webhooks and API), UniFi Access (local API), and a reference ESP32 firmware derived from MemberMatters/prismo-style designs. Brivo and SALTO only when a pilot site needs them.
+- **Adapters** (Scott, 2026-10-13: two or three providers only, starting with Ubiquiti). Order: **UniFi Access** first (LPM runs it; published API documented in `UNIFI-ACCESS-API.md`), then Kisi, then one of Verkada or Genea. Plus the reference ESP32 firmware for tool interlocks. **TinkerCommons never ingests a provider's logs as its record**; it pushes allow/deny state to the provider and keeps its own access events. Brivo, SALTO, Paxton, HID are out.
 - **Safety:** the protocol controls power-enable and door-release only. Emergency stops and machine safety interlocks are never routed through it. Documented in the adapter guide.
 
 ## 8. Integrations
@@ -118,7 +119,7 @@ Versioned documents, in-app signing with stored PDF, badges with expiry and gran
 
 ### v0.3 — Resources and bookings
 Resources, booking-rule table, member calendar on a phone, recurring bookings, approval flow, included hours per month.
-*Done when:* LPM's seven studios and seventeen classes load from the JSON in this folder and the calendar enforces every rule in them; a Creator member gets exactly 10 free hours per studio then the discounted rate.
+*Done when:* a synthetic space with seven resources and a dozen membership classes loads from fixtures and the calendar enforces every rule in them; a tier with 10 included hours per resource gets exactly 10 free hours then the discounted rate.
 
 ### v0.4 — Ledger and payments
 Charge types, invoices, offline payments, taxes, credits and deposits, Stripe meters, Stripe Terminal reader.
@@ -183,11 +184,15 @@ slice; walkthrough before any "proven" claim; a logic test never seen failing is
 | D1 | Backend stack | Django app + FastAPI access service, PostgreSQL, Redis | **decided 2026-10-13** |
 | D2 | Licence | Apache-2.0 | **decided 2026-10-13** (AGPL rejected as too restrictive) |
 | D3 | Name | TinkerCommons | **decided 2026-10-12** |
-| D4 | First pilot site order | LPM first (fewer shops, one vendor to replace), TinkerMill second | open |
-| D5 | Who builds | coordinator plus cheaper coder workers, same pattern as CivicCast beta.10 | open |
+| D4 | First pilot site order | LPM first. TinkerMill maybe later; Scott is no longer directly associated but knows them and the ED | **decided 2026-10-13** |
+| D6 | Seed data | No LPM records anywhere in the product; synthetic fixtures only | **decided 2026-10-13** |
+| D7 | Door providers | UniFi Access, then Kisi, then Verkada or Genea; never their logs as our record | **decided 2026-10-13** |
+| D5 | Who builds | One Claude session on Opus 5.5 at medium effort runs it all, sequentially. No agent swarms: Scott judges them expensive and not as good; for a free OSS project he would rather go smart than fast | **decided 2026-10-13** |
 
 ## 13. Change log
 
+- 2026-10-13 — D6, D7 decided by Scott: no LPM records as seed; door providers limited to 2–3 starting with Ubiquiti, not their logs. UniFi Access developer API documented from Ubiquiti's own 194-page reference in UNIFI-ACCESS-API.md.
+- 2026-10-13 — D4 and D5 decided by Scott: LPM pilots first; one Opus 5.5 medium session builds everything, no swarms. Implementation plan drafted at IMPLEMENTATION-PLAN.md (not yet in repo).
 - 2026-10-13 — Stack decided by Scott: Python; Django for the application, FastAPI for the access-controller service, shared models, same repo; htmx front end, TypeScript only where the portal needs it.
 - 2026-10-13 — Licence decided: **Apache-2.0**. Fable recommended AGPL-3.0 (hosted-fork clause); Scott: "too restrictive."
 - 2026-10-13 — Scott registered tinkercommons.org / .com / .net / .info (Hostinger parking DNS at registration) created an empty public repo github.com/scottconverse/tinkercommons, then also secured the GitHub organization **github.com/tinkercommons** (admin, no repos yet). Code goes in the org.
