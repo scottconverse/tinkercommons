@@ -1,5 +1,12 @@
 # MASTER SPEC — TinkerCommons
 
+**Spec version: 0.2.0** — canonical copy is `docs/MASTER-SPEC.md` in github.com/scottconverse/tinkercommons.
+Any other copy is a snapshot; trust the version line, not the file date.
+
+Versioning rule: any edit bumps the patch number; any new or changed decision in §12 bumps the minor;
+the major tracks the product version this spec governs (0 until v1.0 ships). Every edit adds a line to
+§13 carrying the new version number.
+
 Open-source makerspace and media-center management system.
 
 Canonical, living document. Started 2026-10-12. Owner: Scott Converse. Every settled decision lands here
@@ -191,6 +198,7 @@ slice; walkthrough before any "proven" claim; a logic test never seen failing is
 
 ## 13. Change log
 
+- **0.2.0** 2026-10-13 — Versioning introduced. Repo copy declared canonical; Desktop copy retired to a pointer. All prior entries below are retroactively version 0.1.x (0.1.0 = file created 2026-10-12; each decision D1–D7 a minor bump that was not numbered at the time).
 - 2026-10-13 — D6, D7 decided by Scott: no LPM records as seed; door providers limited to 2–3 starting with Ubiquiti, not their logs. UniFi Access developer API documented from Ubiquiti's own 194-page reference in UNIFI-ACCESS-API.md.
 - 2026-10-13 — D4 and D5 decided by Scott: LPM pilots first; one Opus 5.5 medium session builds everything, no swarms. Implementation plan drafted at IMPLEMENTATION-PLAN.md (not yet in repo).
 - 2026-10-13 — Stack decided by Scott: Python; Django for the application, FastAPI for the access-controller service, shared models, same repo; htmx front end, TypeScript only where the portal needs it.
