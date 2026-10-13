@@ -1,0 +1,17 @@
+# Byte-compiled / venvs
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+# Env and secrets
+.env
+*.env
+# Editors / OS
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+# Build
+dist/
+build/
+*.egg-info/

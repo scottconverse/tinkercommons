@@ -1,0 +1,3714 @@
+{
+ "space": {
+  "id": 805,
+  "account_name": "LongmontPublicMedia",
+  "reseller_id": 1,
+  "brand_id": null,
+  "name": "Longmont Public Media",
+  "mode": "coworking",
+  "timezone": "America/Denver",
+  "currency": "usd",
+  "locale": "en-US",
+  "email": "hello@longmontpublicmedia.org",
+  "status": "active",
+  "postmark_domain_verified": 1,
+  "salto_ks_site_id": null,
+  "self_onboard": 0,
+  "address": "457 4th Avenue",
+  "address_2": "",
+  "locality": "Longmont",
+  "region_short": "CO",
+  "region": "Colorado",
+  "country_short": "US",
+  "country": "United States",
+  "postal_code": "80501",
+  "phone": "720-544-7758",
+  "show_on_map": 1,
+  "coming_soon": 0,
+  "home_hero_text": "Join Longmont Public Media today.",
+  "stripe_pubkey": "pk_live_HHow4u6ZOxLnwXZgXSNXYjSf00oobT123r",
+  "nomad_only": 0,
+  "enable_member_directory": 1,
+  "enable_reservations": 1,
+  "enable_events": 0,
+  "enable_companies": 1,
+  "enable_jobs": 0,
+  "enable_team": true,
+  "enable_member_referrals": 1,
+  "enable_prox_slack": "0",
+  "enable_offline_payments": 1,
+  "google_analytics_id": "311994194",
+  "allow_self_signup": 1,
+  "require_registration": 0,
+  "allow_self_cancel": 1,
+  "inventory_opt_in": false,
+  "workplace_opt_in": false,
+  "latitude": "40.1652657",
+  "longitude": "-105.10053949999997",
+  "space_area": 5200,
+  "measurement_system": "imperial",
+  "nomad_desk_price": 0,
+  "nomad_multiplier": 150,
+  "emergency_pause": 0,
+  "emergency_lockdown": 0,
+  "member_directory_view_level": "logged-in",
+  "has_connected_stripe_account": true,
+  "allow_private_bookings": false,
+  "space_domains": [
+   {
+    "id": 1224,
+    "space_id": 805,
+    "space_domain_certificate_id": 1,
+    "fqdn": "LongmontPublicMedia.app.proximity.space",
+    "default_domain": 0,
+    "redirect_permanent": 1,
+    "redirect_map_path": 1,
+    "redirect_url": "https://members.longmontpublicmedia.org",
+    "meta": [],
+    "created_at": "2022-04-09T06:36:43.000000Z",
+    "updated_at": "2022-04-09T06:36:43.000000Z"
+   },
+   {
+    "id": 1225,
+    "space_id": 805,
+    "space_domain_certificate_id": 234,
+    "fqdn": "members.longmontpublicmedia.org",
+    "default_domain": 1,
+    "redirect_permanent": 0,
+    "redirect_map_path": 1,
+    "redirect_url": null,
+    "meta": [],
+    "created_at": "2022-04-09T06:36:43.000000Z",
+    "updated_at": "2022-04-09T06:36:43.000000Z"
+   },
+   {
+    "id": 2663,
+    "space_id": 805,
+    "space_domain_certificate_id": 458,
+    "fqdn": "LongmontPublicMedia.proximity.app",
+    "default_domain": 0,
+    "redirect_permanent": 1,
+    "redirect_map_path": 1,
+    "redirect_url": "https://members.longmontpublicmedia.org",
+    "meta": [],
+    "created_at": "2022-04-09T06:36:51.000000Z",
+    "updated_at": "2022-04-09T06:36:51.000000Z"
+   }
+  ],
+  "partner": {
+   "id": 1,
+   "name": "Proximity",
+   "domain_certificate_id": 458,
+   "logo_light": 68462,
+   "logo_dark": 68463,
+   "powered_by_logo_light": 68464,
+   "powered_by_logo_dark": 68465,
+   "show_powered_by_proximity": 0,
+   "favicon_id": null,
+   "featured_image_id": null,
+   "color_primary": "#EE487C",
+   "color_primary_contrast": "#fff",
+   "color_secondary": "#F26C45",
+   "color_secondary_contrast": "#000",
+   "css": null,
+   "email_css": null,
+   "body_classes": null,
+   "phone": null,
+   "email": "hello@proximity.space",
+   "dispute_email": "disputes@beinproximity.com",
+   "privacy_email": "privacy@proximity.space",
+   "noreply_email": "noreply@proximity.space",
+   "address": "307 N 1st Street",
+   "address_2": null,
+   "locality": "Montrose",
+   "region_short": "CO",
+   "region": "Colorado",
+   "country_short": "US",
+   "country": "United States",
+   "postal_code": "81401",
+   "statement_descriptor": "Proximity",
+   "docs_site_url": "https://docs.proximity.space",
+   "marketing_site_url": "https://proximity.space",
+   "apps_landing_page_url": null,
+   "wave_url_prefix": "wave",
+   "tagline": null,
+   "home_hero_text": null,
+   "facebook_url": null,
+   "twitter_username": null,
+   "instagram_url": null,
+   "show_partner_spaces_on_map": 1,
+   "show_partner_spaces_in_apps": 1,
+   "show_non_partner_spaces_on_maps": 1,
+   "show_non_partner_spaces_in_apps": 1,
+   "created_at": "2023-07-05 22:06:20",
+   "updated_at": "2023-07-05 22:06:20",
+   "deleted_at": null,
+   "laravel_through_key": 1,
+   "primary": true,
+   "domain_certificate": {
+    "id": 458,
+    "host": "proximity.app",
+    "status": "ISSUED",
+    "aws_acm_id": null,
+    "aws_nginx_config_id": null,
+    "aws_tasker_session_id": null,
+    "root_wildcard": 1,
+    "shared_session_host": 1,
+    "auto_renew": 0,
+    "community": 1,
+    "expires_at": "2025-06-30 23:59:59",
+    "meta": {
+     "NS": "ns-287.awsdns-35.com"
+    },
+    "created_at": "2022-04-09T06:36:51.000000Z",
+    "updated_at": "2024-08-13T22:40:16.000000Z"
+   },
+   "favicon": null,
+   "featured_image": null
+  },
+  "photos": [],
+  "membership_classes": [
+   {
+    "id": 9564,
+    "uuid": "5dcc466652794853509750",
+    "space_id": 805,
+    "name": "Community Member / Pay-as-you-go",
+    "type": "external",
+    "managed": false,
+    "price": 0,
+    "status": 1,
+    "period_type": "monthly",
+    "period": 1,
+    "contract_length": 0,
+    "recurring": 1,
+    "auto_refill_policy": "none",
+    "auto_refill_type": "top off",
+    "max_shared_memberships": null,
+    "signup_fee_amount": 0,
+    "deposit_amount": 0,
+    "deposit_policy": "See space manager for deposit policy.",
+    "insurance_required": false,
+    "insurance_requirements": "Contact community manager for required insurance.",
+    "insurance_restricts_access": true,
+    "sort_order": 6,
+    "is_new_from_migration_5_2019": 0,
+    "created_at": "2019-11-13 18:07:34",
+    "updated_at": "2026-06-10 21:36:01",
+    "deleted_at": null,
+    "requires_approval": 0,
+    "internet_access": 0,
+    "provides_roaming": 0,
+    "is_punch_card": 0,
+    "min_punches": null,
+    "max_punches": null,
+    "price_per_punch": null,
+    "punch_exp_period_type": null,
+    "punch_exp_period": null,
+    "default": 1,
+    "meraki_group_policy": null,
+    "description": "Your entry point to Longmont Public Media. Access our studios and equipment Monday\u2013Friday, 9am\u20135pm and pay as you go at hourly studio rates.",
+    "excerpt": "Your entry point to Longmont Public Media. Access our studios and equipment Monday\u2013Friday, 9am\u20135pm and pay as you go at hourly studio rates.",
+    "is_nomad": 0,
+    "require_contract_at_renewal": 0,
+    "max_quantity": null,
+    "brand_id": null
+   },
+   {
+    "id": 9821,
+    "uuid": "5ded507c91579621079432",
+    "space_id": 805,
+    "name": "LPM25 Organization / Corporate",
+    "type": "external",
+    "managed": false,
+    "price": 12000,
+    "status": 0,
+    "period_type": "monthly",
+    "period": 1,
+    "contract_length": 0,
+    "recurring": 1,
+    "auto_refill_policy": "none",
+    "auto_refill_type": "top off",
+    "max_shared_memberships": 4,
+    "signup_fee_amount": 0,
+    "deposit_amount": 0,
+    "deposit_policy": "See space manager for deposit policy.",
+    "insurance_required": false,
+    "insurance_requirements": "Contact community manager for required insurance.",
+    "insurance_restricts_access": true,
+    "sort_order": 11,
+    "is_new_from_migration_5_2019": 0,
+    "created_at": "2019-12-08 19:35:24",
+    "updated_at": "2026-06-10 21:36:01",
+    "deleted_at": null,
+    "requires_approval": 0,
+    "internet_access": 1,
+    "provides_roaming": 0,
+    "is_punch_card": 0,
+    "min_punches": null,
+    "max_punches": null,
+    "price_per_punch": null,
+    "punch_exp_period_type": null,
+    "punch_exp_period": null,
+    "default": 0,
+    "meraki_group_policy": null,
+    "description": "For up to 5 members of your organization / corporation. ",
+    "excerpt": "",
+    "is_nomad": 0,
+    "require_contract_at_renewal": 0,
+    "max_quantity": null,
+    "brand_id": null
+   },
+   {
+    "id": 17327,
+    "uuid": "60fb28cc84af9011588550",
+    "space_id": 805,
+    "name": "LPM25 Corporate Rate (Yearly Membership)",
+    "type": "external",
+    "managed": false,
+    "price": 120000,
+    "status": 0,
+    "period_type": "monthly",
+    "period": 12,
+    "contract_length": 0,
+    "recurring": 1,
+    "auto_refill_policy": "none",
+    "auto_refill_type": "top off",
+    "max_shared_memberships": 4,
+    "signup_fee_amount": 0,
+    "deposit_amount": 0,
+    "deposit_policy": "See space manager for deposit policy.",
+    "insurance_required": false,
+    "insurance_requirements": "Contact community manager for required insurance.",
+    "insurance_restricts_access": true,
+    "sort_order": 15,
+    "is_new_from_migration_5_2019": 0,
+    "created_at": "2021-07-23 20:38:36",
+    "updated_at": "2026-06-10 21:36:01",
+    "deleted_at": null,
+    "requires_approval": 0,
+    "internet_access": 0,
+    "provides_roaming": 0,
+    "is_punch_card": 0,
+    "min_punches": null,
+    "max_punches": null,
+    "price_per_punch": null,
+    "punch_exp_period_type": null,
+    "punch_exp_period": null,
+    "default": 0,
+    "meraki_group_policy": null,
+    "description": "For up to 5 members of your organization / corporation. Billed Yearly",
+    "excerpt": "Yearly! Get 2 months free!",
+    "is_nomad": 0,
+    "require_contract_at_renewal": 0,
+    "max_quantity": null,
+    "brand_id": null
+   },
+   {
+    "id": 20644,
+    "uuid": "62a38b7ea7773517494324",
+    "space_id": 805,
+    "name": "LPM25 Supporter",
+    "type": "external",
+    "managed": false,
+    "price": 3000,
+    "status": 0,
+    "period_type": "monthly",
+    "period": 12,
+    "contract_length": 0,
+    "recurring": 1,
+    "auto_refill_policy": "none",
+    "auto_refill_type": "top off",
+    "max_shared_memberships": null,
+    "signup_fee_amount": 0,
+    "deposit_amount": 0,
+    "deposit_policy": "See space manager for deposit policy.",
+    "insurance_required": false,
+    "insurance_requirements": "Contact community manager for required insurance.",
+    "insurance_restricts_access": true,
+    "sort_order": 7,
+    "is_new_from_migration_5_2019": 0,
+    "created_at": "2022-06-10 18:20:46",
+    "updated_at": "2026-06-10 21:36:01",
+    "deleted_at": null,
+    "requires_approval": 0,
+    "internet_access": 1,
+    "provides_roaming": 0,
+    "is_punch_card": 0,
+    "min_punches": null,
+    "max_punches": null,
+    "price_per_punch": null,
+    "punch_exp_period_type": null,
+    "punch_exp_period": null,
+    "default": 0,
+    "meraki_group_policy": null,
+    "description": "Support Longmont Public Media with a $30/year membership! With this membership you can: \r\n-Use LPM during normal business hours\r\n-Make studio reservations M-F 9am to 5pm",
+    "excerpt": "Support LPM with a yearly membership!",
+    "is_nomad": 0,
+    "require_contract_at_renewal": 0,
+    "max_quantity": null,
+    "brand_id": null
+   },
+   {
+    "id": 20645,
+    "uuid": "62a38fcfe013a418775597",
+    "space_id": 805,
+    "name": "LPM25 Maker",
+    "type": "external",
+    "managed": false,
+    "price": 3000,
+    "status": 0,
+    "period_type": "monthly",
+    "period": 1,
+    "contract_length": 0,
+    "recurring": 1,
+    "auto_refill_policy": "none",
+    "auto_refill_type": "top off",
+    "max_shared_memberships": null,
+    "signup_fee_amount": 0,
+    "deposit_amount": 0,
+    "deposit_policy": "See space manager for deposit policy.",
+    "insurance_required": false,
+    "insurance_requirements": "Contact community manager for required insurance.",
+    "insurance_restricts_access": true,
+    "sort_order": 8,
+    "is_new_from_migration_5_2019": 0,
+    "created_at": "2022-06-10 18:39:11",
+    "updated_at": "2026-06-10 21:36:01",
+    "deleted_at": null,
+    "requires_approval": 0,
+    "internet_access": 0,
+    "provides_roaming": 0,
+    "is_punch_card": 0,
+    "min_punches": null,
+    "max_punches": null,
+    "price_per_punch": null,
+    "punch_exp_period_type": null,
+    "punch_exp_period": null,
+    "default": 0,
+    "meraki_group_policy": null,
+    "description": "Join as a Maker and gain the following benefits:\r\n-24/7 access\r\n-50% equipment rentals\r\n-Reserve studio space",
+    "excerpt": "",
+    "is_nomad": 0,
+    "require_contract_at_renewal": 0,
+    "max_quantity": null,
+    "brand_id": null
+   },
+   {
+    "id": 20646,
+    "uuid": "62a3929eae0ad445927850",
+    "space_id": 805,
+    "name": "LPM25 - Creator",
+    "type": "external",
+    "managed": false,
+    "price": 6000,
+    "status": 0,
+    "period_type": "monthly",
+    "period": 1,
+    "contract_length": 0,
+    "recurring": 1,
+    "auto_refill_policy": "none",
+    "auto_refill_type": "top off",
+    "max_shared_memberships": null,
+    "signup_fee_amount": 0,
+    "deposit_amount": 0,
+    "deposit_policy": "See space manager for deposit policy.",
+    "insurance_required": false,
+    "insurance_requirements": "Contact community manager for required insurance.",
+    "insurance_restricts_access": true,
+    "sort_order": 9,
+    "is_new_from_migration_5_2019": 0,
+    "created_at": "2022-06-10 18:51:10",
+    "updated_at": "2026-06-10 21:36:01",
+    "deleted_at": null,
+    "requires_approval": 0,
+    "internet_access": 0,
+    "provides_roaming": 0,
+    "is_punch_card": 0,
+    "min_punches": null,
+    "max_punches": null,
+    "price_per_punch": null,
+    "punch_exp_period_type": null,
+    "punch_exp_period": null,
+    "default": 0,
+    "meraki_group_policy": null,
+    "description": "Join as a Creator and gain the following benefits:\r\n-24/7 access\r\n-Free equipment rentals\r\n-Discounts on class\r\n-Reserve studio space",
+    "excerpt": "",
+    "is_nomad": 0,
+    "require_contract_at_renewal": 0,
+    "max_quantity": null,
+    "brand_id": null
+   },
+   {
+    "id": 20647,
+    "uuid": "62a3937b2ec65342047203",
+    "space_id": 805,
+    "name": "LPM25 Production Team",
+    "type": "external",
+    "managed": false,
+    "price": 9000,
+    "status": 0,
+    "period_type": "monthly",
+    "period": 1,
+    "contract_length": 0,
+    "recurring": 1,
+    "auto_refill_policy": "none",
+    "auto_refill_type": "top off",
+    "max_shared_memberships": 2,
+    "signup_fee_amount": 0,
+    "deposit_amount": 0,
+    "deposit_policy": "See space manager for deposit policy.",
+    "insurance_required": false,
+    "insurance_requirements": "Contact community manager for required insurance.",
+    "insurance_restricts_access": true,
+    "sort_order": 10,
+    "is_new_from_migration_5_2019": 0,
+    "created_at": "2022-06-10 18:54:51",
+    "updated_at": "2026-06-10 21:36:01",
+    "deleted_at": null,
+    "requires_approval": 0,
+    "internet_access": 0,
+    "provides_roaming": 0,
+    "is_punch_card": 0,
+    "min_punches": null,
+    "max_punches": null,
+    "price_per_punch": null,
+    "punch_exp_period_type": null,
+    "punch_exp_period": null,
+    "default": 0,
+    "meraki_group_policy": null,
+    "description": "Join as a Production Team and gain the following benefits:\r\n-Up to 3 people\r\n-24/7 access\r\n-Free equipment rentals\r\n-Reserve studio space\r\n-Discounts on class",
+    "excerpt": "",
+    "is_nomad": 0,
+    "require_contract_at_renewal": 0,
+    "max_quantity": null,
+    "brand_id": null
+   },
+   {
+    "id": 21283,
+    "uuid": "62ffc004148d1185208916",
+    "space_id": 805,
+    "name": "LPM25 Maker (Yearly)",
+    "type": "external",
+    "managed": false,
+    "price": 30000,
+    "status": 0,
+    "period_type": "monthly",
+    "period": 12,
+    "contract_length": 0,
+    "recurring": 1,
+    "auto_refill_policy": "none",
+    "auto_refill_type": "top off",
+    "max_shared_memberships": null,
+    "signup_fee_amount": 0,
+    "deposit_amount": 0,
+    "deposit_policy": "See space manager for deposit policy.",
+    "insurance_required": false,
+    "insurance_requirements": "Contact community manager for required insurance.",
+    "insurance_restricts_access": true,
+    "sort_order": 12,
+    "is_new_from_migration_5_2019": 0,
+    "created_at": "2022-08-19 16:53:24",
+    "updated_at": "2026-06-10 21:36:01",
+    "deleted_at": null,
+    "requires_approval": 0,
+    "internet_access": 1,
+    "provides_roaming": 0,
+    "is_punch_card": 0,
+    "min_punches": null,
+    "max_punches": null,
+    "price_per_punch": null,
+    "punch_exp_period_type": null,
+    "punch_exp_period": null,
+    "default": 0,
+    "meraki_group_policy": null,
+    "description": "Join as a Maker and gain the following benefits:\r\n-24/7 access\r\n-50% equipment rentals\r\n-Reserve studio space",
+    "excerpt": "Yearly! Get 2 months free",
+    "is_nomad": 0,
+    "require_contract_at_renewal": 0,
+    "max_quantity": null,
+    "brand_id": null
+   },
+   {
+    "id": 21284,
+    "uuid": "62ffc0389c784039179144",
+    "space_id": 805,
+    "name": "LPM25 Creator (Yearly)",
+    "type": "external",
+    "managed": false,
+    "price": 60000,
+    "status": 0,
+    "period_type": "monthly",
+    "period": 12,
+    "contract_length": 0,
+    "recurring": 1,
+    "auto_refill_policy": "none",
+    "auto_refill_type": "top off",
+    "max_shared_memberships": null,
+    "signup_fee_amount": 0,
+    "deposit_amount": 0,
+    "deposit_policy": "See space manager for deposit policy.",
+    "insurance_required": false,
+    "insurance_requirements": "Contact community manager for required insurance.",
+    "insurance_restricts_access": true,
+    "sort_order": 13,
+    "is_new_from_migration_5_2019": 0,
+    "created_at": "2022-08-19 16:54:16",
+    "updated_at": "2026-06-10 21:36:01",
+    "deleted_at": null,
+    "requires_approval": 0,
+    "internet_access": 1,
+    "provides_roaming": 0,
+    "is_punch_card": 0,
+    "min_punches": null,
+    "max_punches": null,
+    "price_per_punch": null,
+    "punch_exp_period_type": null,
+    "punch_exp_period": null,
+    "default": 0,
+    "meraki_group_policy": null,
+    "description": "Join as a Creator and gain the following benefits:\r\n-24/7 access\r\n-Free equipment rentals\r\n-Discounts on class\r\n-Reserve studio space",
+    "excerpt": "Yearly! Get 2 months free!",
+    "is_nomad": 0,
+    "require_contract_at_renewal": 0,
+    "max_quantity": null,
+    "brand_id": null
+   },
+   {
+    "id": 21285,
+    "uuid": "62ffc06616873521365674",
+    "space_id": 805,
+    "name": "LPM25 Production Team (Yearly)",
+    "type": "external",
+    "managed": false,
+    "price": 90000,
+    "status": 0,
+    "period_type": "monthly",
+    "period": 12,
+    "contract_length": 0,
+    "recurring": 1,
+    "auto_refill_policy": "none",
+    "auto_refill_type": "top off",
+    "max_shared_memberships": 2,
+    "signup_fee_amount": 0,
+    "deposit_amount": 0,
+    "deposit_policy": "See space manager for deposit policy.",
+    "insurance_required": false,
+    "insurance_requirements": "Contact community manager for required insurance.",
+    "insurance_restricts_access": true,
+    "sort_order": 14,
+    "is_new_from_migration_5_2019": 0,
+    "created_at": "2022-08-19 16:55:02",
+    "updated_at": "2026-06-10 21:36:01",
+    "deleted_at": null,
+    "requires_approval": 0,
+    "internet_access": 1,
+    "provides_roaming": 0,
+    "is_punch_card": 0,
+    "min_punches": null,
+    "max_punches": null,
+    "price_per_punch": null,
+    "punch_exp_period_type": null,
+    "punch_exp_period": null,
+    "default": 0,
+    "meraki_group_policy": null,
+    "description": "Join as a Production Team and gain the following benefits:\r\n-Up to 3 people\r\n-24/7 access\r\n-Free equipment rentals\r\n-Reserve studio space\r\n-Discounts on class",
+    "excerpt": "Yearly! Get 2 months free!",
+    "is_nomad": 0,
+    "require_contract_at_renewal": 0,
+    "max_quantity": null,
+    "brand_id": null
+   },
+   {
+    "id": 31043,
+    "uuid": "6a29d71557d36421309236",
+    "space_id": 805,
+    "name": "Creator (Monthly)",
+    "type": "external",
+    "managed": false,
+    "price": 4000,
+    "status": 1,
+    "period_type": "monthly",
+    "period": 1,
+    "contract_length": 0,
+    "recurring": 1,
+    "auto_refill_policy": "none",
+    "auto_refill_type": "top off",
+    "max_shared_memberships": null,
+    "signup_fee_amount": 0,
+    "deposit_amount": 0,
+    "deposit_policy": "See space manager for deposit policy.",
+    "insurance_required": false,
+    "insurance_requirements": "Contact community manager for required insurance.",
+    "insurance_restricts_access": true,
+    "sort_order": 0,
+    "is_new_from_migration_5_2019": 0,
+    "created_at": "2026-06-10 21:28:53",
+    "updated_at": "2026-06-10 21:28:53",
+    "deleted_at": null,
+    "requires_approval": 0,
+    "internet_access": 0,
+    "provides_roaming": 0,
+    "is_punch_card": 0,
+    "min_punches": null,
+    "max_punches": null,
+    "price_per_punch": null,
+    "punch_exp_period_type": null,
+    "punch_exp_period": null,
+    "default": 0,
+    "meraki_group_policy": null,
+    "description": "Full 24/7 access to LPM's facility, equipment, and studios. Includes 10 free hours per studio each month, discounted rates after that, discounted classes, and the ability to book up to 90 days in advance.",
+    "excerpt": "Full 24/7 access to LPM's facility, equipment, and studios. Includes 10 free hours per studio each month, discounted rates after that, discounted classes, and the ability to book up to 90 days in advance.",
+    "is_nomad": 0,
+    "require_contract_at_renewal": 0,
+    "max_quantity": null,
+    "brand_id": null
+   },
+   {
+    "id": 31044,
+    "uuid": "6a29d7c678741667257681",
+    "space_id": 805,
+    "name": "Creator (Yearly) ",
+    "type": "external",
+    "managed": false,
+    "price": 40000,
+    "status": 1,
+    "period_type": "monthly",
+    "period": 12,
+    "contract_length": 0,
+    "recurring": 1,
+    "auto_refill_policy": "none",
+    "auto_refill_type": "top off",
+    "max_shared_memberships": null,
+    "signup_fee_amount": 0,
+    "deposit_amount": 0,
+    "deposit_policy": "See space manager for deposit policy.",
+    "insurance_required": false,
+    "insurance_requirements": "Contact community manager for required insurance.",
+    "insurance_restricts_access": true,
+    "sort_order": 1,
+    "is_new_from_migration_5_2019": 0,
+    "created_at": "2026-06-10 21:31:50",
+    "updated_at": "2026-06-10 21:32:52",
+    "deleted_at": null,
+    "requires_approval": 0,
+    "internet_access": 0,
+    "provides_roaming": 0,
+    "is_punch_card": 0,
+    "min_punches": null,
+    "max_punches": null,
+    "price_per_punch": null,
+    "punch_exp_period_type": null,
+    "punch_exp_period": null,
+    "default": 0,
+    "meraki_group_policy": null,
+    "description": "Everything in the monthly Creator membership \u2014 24/7 access, 10 free studio hours per month, discounted rates, and 90-day advance booking \u2014 at $400/year. Save $80 compared to paying month to month.",
+    "excerpt": "Everything in the monthly Creator membership \u2014 24/7 access, 10 free studio hours per month, discounted rates, and 90-day advance booking \u2014 at $400/year. Save $80 compared to paying month to month.",
+    "is_nomad": 0,
+    "require_contract_at_renewal": 0,
+    "max_quantity": null,
+    "brand_id": null
+   },
+   {
+    "id": 31045,
+    "uuid": "6a29d7f4d1b36173486122",
+    "space_id": 805,
+    "name": "Non-Profit (Monthly)",
+    "type": "external",
+    "managed": false,
+    "price": 8000,
+    "status": 1,
+    "period_type": "monthly",
+    "period": 1,
+    "contract_length": 0,
+    "recurring": 1,
+    "auto_refill_policy": "none",
+    "auto_refill_type": "top off",
+    "max_shared_memberships": 5,
+    "signup_fee_amount": 0,
+    "deposit_amount": 0,
+    "deposit_policy": "See space manager for deposit policy.",
+    "insurance_required": false,
+    "insurance_requirements": "Contact community manager for required insurance.",
+    "insurance_restricts_access": true,
+    "sort_order": 2,
+    "is_new_from_migration_5_2019": 0,
+    "created_at": "2026-06-10 21:32:36",
+    "updated_at": "2026-09-28 23:00:27",
+    "deleted_at": null,
+    "requires_approval": 0,
+    "internet_access": 0,
+    "provides_roaming": 0,
+    "is_punch_card": 0,
+    "min_punches": null,
+    "max_punches": null,
+    "price_per_punch": null,
+    "punch_exp_period_type": null,
+    "punch_exp_period": null,
+    "default": 0,
+    "meraki_group_policy": null,
+    "description": "Full 24/7 access to LPM's facility, equipment, and studios. Includes 20 free hours per studio each month, discounted rates after that, discounted classes, discounted pro-services rates, and promotion on LPM TV Channels.",
+    "excerpt": "Full 24/7 access to LPM's facility, equipment, and studios. Includes 20 free hours per studio each month, discounted rates after that, discounted classes, discounted pro-services rates, and promotion on LPM TV Channels.",
+    "is_nomad": 0,
+    "require_contract_at_renewal": 0,
+    "max_quantity": null,
+    "brand_id": null
+   },
+   {
+    "id": 31046,
+    "uuid": "6a29d824c0aa9830573695",
+    "space_id": 805,
+    "name": "Non-Profit (Yearly) ",
+    "type": "external",
+    "managed": false,
+    "price": 80000,
+    "status": 1,
+    "period_type": "monthly",
+    "period": 12,
+    "contract_length": 0,
+    "recurring": 1,
+    "auto_refill_policy": "none",
+    "auto_refill_type": "top off",
+    "max_shared_memberships": 4,
+    "signup_fee_amount": 0,
+    "deposit_amount": 0,
+    "deposit_policy": "See space manager for deposit policy.",
+    "insurance_required": false,
+    "insurance_requirements": "Contact community manager for required insurance.",
+    "insurance_restricts_access": true,
+    "sort_order": 3,
+    "is_new_from_migration_5_2019": 0,
+    "created_at": "2026-06-10 21:33:24",
+    "updated_at": "2026-09-15 17:02:11",
+    "deleted_at": null,
+    "requires_approval": 0,
+    "internet_access": 0,
+    "provides_roaming": 0,
+    "is_punch_card": 0,
+    "min_punches": null,
+    "max_punches": null,
+    "price_per_punch": null,
+    "punch_exp_period_type": null,
+    "punch_exp_period": null,
+    "default": 0,
+    "meraki_group_policy": null,
+    "description": "Everything in the monthly Nonprofit membership \u2014 24/7 access, 20 free studio hours per month, discounted rates, and LPM TV Channel promotion \u2014 at $800/year. Save $160 compared to paying month to month.",
+    "excerpt": "Everything in the monthly Nonprofit membership \u2014 24/7 access, 20 free studio hours per month, discounted rates, and LPM TV Channel promotion \u2014 at $800/year. Save $160 compared to paying month to month.",
+    "is_nomad": 0,
+    "require_contract_at_renewal": 0,
+    "max_quantity": null,
+    "brand_id": null
+   },
+   {
+    "id": 31047,
+    "uuid": "6a29d84308910231689737",
+    "space_id": 805,
+    "name": "Business (Monthly)",
+    "type": "external",
+    "managed": false,
+    "price": 15000,
+    "status": 1,
+    "period_type": "monthly",
+    "period": 1,
+    "contract_length": 0,
+    "recurring": 1,
+    "auto_refill_policy": "none",
+    "auto_refill_type": "top off",
+    "max_shared_memberships": null,
+    "signup_fee_amount": 0,
+    "deposit_amount": 0,
+    "deposit_policy": "See space manager for deposit policy.",
+    "insurance_required": false,
+    "insurance_requirements": "Contact community manager for required insurance.",
+    "insurance_restricts_access": true,
+    "sort_order": 4,
+    "is_new_from_migration_5_2019": 0,
+    "created_at": "2026-06-10 21:33:55",
+    "updated_at": "2026-06-10 21:36:00",
+    "deleted_at": null,
+    "requires_approval": 0,
+    "internet_access": 0,
+    "provides_roaming": 0,
+    "is_punch_card": 0,
+    "min_punches": null,
+    "max_punches": null,
+    "price_per_punch": null,
+    "punch_exp_period_type": null,
+    "punch_exp_period": null,
+    "default": 0,
+    "meraki_group_policy": null,
+    "description": "Full 24/7 access to LPM's facility, equipment, and studios. Includes 20 free hours per studio each month, discounted rates after that, discounted classes, discounted pro-services rates, and promotion on LPM TV Channels.",
+    "excerpt": "Full 24/7 access to LPM's facility, equipment, and studios. Includes 20 free hours per studio each month, discounted rates after that, discounted classes, discounted pro-services rates, and promotion on LPM TV Channels.",
+    "is_nomad": 0,
+    "require_contract_at_renewal": 0,
+    "max_quantity": null,
+    "brand_id": null
+   },
+   {
+    "id": 31048,
+    "uuid": "6a29d865103b0580973485",
+    "space_id": 805,
+    "name": "Business (Yearly)",
+    "type": "external",
+    "managed": false,
+    "price": 150000,
+    "status": 1,
+    "period_type": "monthly",
+    "period": 12,
+    "contract_length": 0,
+    "recurring": 1,
+    "auto_refill_policy": "none",
+    "auto_refill_type": "top off",
+    "max_shared_memberships": null,
+    "signup_fee_amount": 0,
+    "deposit_amount": 0,
+    "deposit_policy": "See space manager for deposit policy.",
+    "insurance_required": false,
+    "insurance_requirements": "Contact community manager for required insurance.",
+    "insurance_restricts_access": true,
+    "sort_order": 5,
+    "is_new_from_migration_5_2019": 0,
+    "created_at": "2026-06-10 21:34:29",
+    "updated_at": "2026-06-10 21:36:00",
+    "deleted_at": null,
+    "requires_approval": 0,
+    "internet_access": 0,
+    "provides_roaming": 0,
+    "is_punch_card": 0,
+    "min_punches": null,
+    "max_punches": null,
+    "price_per_punch": null,
+    "punch_exp_period_type": null,
+    "punch_exp_period": null,
+    "default": 0,
+    "meraki_group_policy": null,
+    "description": "Everything in the monthly Business membership \u2014 24/7 access, 20 free studio hours per month, discounted rates, and LPM TV Channel promotion \u2014 at $1,500/year. Save $300 compared to paying month to month.",
+    "excerpt": "Everything in the monthly Business membership \u2014 24/7 access, 20 free studio hours per month, discounted rates, and LPM TV Channel promotion \u2014 at $1,500/year. Save $300 compared to paying month to month.",
+    "is_nomad": 0,
+    "require_contract_at_renewal": 0,
+    "max_quantity": null,
+    "brand_id": null
+   },
+   {
+    "id": 31071,
+    "uuid": "6a31a8a86b103882590780",
+    "space_id": 805,
+    "name": "SVVSD Student",
+    "type": "external",
+    "managed": false,
+    "price": 0,
+    "status": 0,
+    "period_type": "monthly",
+    "period": 12,
+    "contract_length": 0,
+    "recurring": 1,
+    "auto_refill_policy": "none",
+    "auto_refill_type": "top off",
+    "max_shared_memberships": null,
+    "signup_fee_amount": 0,
+    "deposit_amount": 0,
+    "deposit_policy": "See space manager for deposit policy.",
+    "insurance_required": false,
+    "insurance_requirements": "Contact community manager for required insurance.",
+    "insurance_restricts_access": true,
+    "sort_order": 7,
+    "is_new_from_migration_5_2019": 0,
+    "created_at": "2026-06-16 19:48:56",
+    "updated_at": "2026-06-16 19:48:56",
+    "deleted_at": null,
+    "requires_approval": 0,
+    "internet_access": 1,
+    "provides_roaming": 0,
+    "is_punch_card": 0,
+    "min_punches": null,
+    "max_punches": null,
+    "price_per_punch": null,
+    "punch_exp_period_type": null,
+    "punch_exp_period": null,
+    "default": 0,
+    "meraki_group_policy": null,
+    "description": "With this membership you can: \r\n-Make studio reservations M-F 9am to 5pm",
+    "excerpt": "A membership for SVVSD Students",
+    "is_nomad": 0,
+    "require_contract_at_renewal": 0,
+    "max_quantity": null,
+    "brand_id": null
+   }
+  ],
+  "object_meta": [
+   {
+    "id": 2644269797,
+    "describable_id": 805,
+    "describable_type": "App\\Models\\Space",
+    "meta_key": "allow_donations",
+    "meta_value": "0",
+    "created_at": "2026-07-06 22:53:16",
+    "updated_at": "2026-07-06 22:53:16"
+   },
+   {
+    "id": 1836358877,
+    "describable_id": 805,
+    "describable_type": "App\\Models\\Space",
+    "meta_key": "Brivo_enabled",
+    "meta_value": "0",
+    "created_at": "2023-08-31 14:20:41",
+    "updated_at": "2023-08-31 14:20:41"
+   },
+   {
+    "id": 2611966547,
+    "describable_id": 805,
+    "describable_type": "App\\Models\\Space",
+    "meta_key": "conference_rooms_lead",
+    "meta_value": "<p>Need to rent a TV studio, podcast studio, or editing machines?&nbsp; All&nbsp;are available to everyone, whether you're a member of our space or not!</p>",
+    "created_at": "2026-05-12 20:50:07",
+    "updated_at": "2026-05-12 20:50:07"
+   },
+   {
+    "id": 1045862240,
+    "describable_id": 805,
+    "describable_type": "App\\Models\\Space",
+    "meta_key": "custom_meta_keys",
+    "meta_value": "a:2:{i:0;s:14:\"_isVaccinated?\";i:1;s:12:\"_showed info\";}",
+    "created_at": "2021-10-28 15:59:47",
+    "updated_at": "2021-10-28 15:59:47"
+   },
+   {
+    "id": 1836358879,
+    "describable_id": 805,
+    "describable_type": "App\\Models\\Space",
+    "meta_key": "enable_credit_payments",
+    "meta_value": "1",
+    "created_at": "2023-08-31 14:20:41",
+    "updated_at": "2023-08-31 14:20:41"
+   },
+   {
+    "id": 2671633771,
+    "describable_id": 805,
+    "describable_type": "App\\Models\\Space",
+    "meta_key": "enableMembershipFutureStartDate",
+    "meta_value": "0",
+    "created_at": "2026-08-24 20:27:18",
+    "updated_at": "2026-08-24 20:27:18"
+   },
+   {
+    "id": 1836358878,
+    "describable_id": 805,
+    "describable_type": "App\\Models\\Space",
+    "meta_key": "Enterprise_enabled",
+    "meta_value": "0",
+    "created_at": "2023-08-31 14:20:41",
+    "updated_at": "2023-08-31 14:20:41"
+   },
+   {
+    "id": 2698535350,
+    "describable_id": 805,
+    "describable_type": "App\\Models\\Space",
+    "meta_key": "google_failed_sync_10499",
+    "meta_value": "0",
+    "created_at": "2026-10-12 21:10:58",
+    "updated_at": "2026-10-12 21:10:58"
+   },
+   {
+    "id": 2698535329,
+    "describable_id": 805,
+    "describable_type": "App\\Models\\Space",
+    "meta_key": "google_failed_sync_2874",
+    "meta_value": "0",
+    "created_at": "2026-10-12 21:10:56",
+    "updated_at": "2026-10-12 21:10:56"
+   },
+   {
+    "id": 2698535333,
+    "describable_id": 805,
+    "describable_type": "App\\Models\\Space",
+    "meta_key": "google_failed_sync_3038",
+    "meta_value": "0",
+    "created_at": "2026-10-12 21:10:56",
+    "updated_at": "2026-10-12 21:10:56"
+   },
+   {
+    "id": 2698535336,
+    "describable_id": 805,
+    "describable_type": "App\\Models\\Space",
+    "meta_key": "google_failed_sync_3081",
+    "meta_value": "0",
+    "created_at": "2026-10-12 21:10:57",
+    "updated_at": "2026-10-12 21:10:57"
+   },
+   {
+    "id": 2698535340,
+    "describable_id": 805,
+    "describable_type": "App\\Models\\Space",
+    "meta_key": "google_failed_sync_5389",
+    "meta_value": "0",
+    "created_at": "2026-10-12 21:10:57",
+    "updated_at": "2026-10-12 21:10:57"
+   },
+   {
+    "id": 2698535344,
+    "describable_id": 805,
+    "describable_type": "App\\Models\\Space",
+    "meta_key": "google_failed_sync_5451",
+    "meta_value": "0",
+    "created_at": "2026-10-12 21:10:57",
+    "updated_at": "2026-10-12 21:10:57"
+   },
+   {
+    "id": 2698535347,
+    "describable_id": 805,
+    "describable_type": "App\\Models\\Space",
+    "meta_key": "google_failed_sync_6866",
+    "meta_value": "0",
+    "created_at": "2026-10-12 21:10:57",
+    "updated_at": "2026-10-12 21:10:57"
+   },
+   {
+    "id": 2698535348,
+    "describable_id": 805,
+    "describable_type": "App\\Models\\Space",
+    "meta_key": "google_last_sync_10499",
+    "meta_value": "O:13:\"Carbon\\Carbon\":3:{s:4:\"date\";s:26:\"2026-10-12 21:10:57.827763\";s:13:\"timezone_type\";i:3;s:8:\"timezone\";s:3:\"UTC\";}",
+    "created_at": "2026-10-12 21:10:57",
+    "updated_at": "2026-10-12 21:10:57"
+   },
+   {
+    "id": 250078539,
+    "describable_id": 805,
+    "describable_type": "App\\Models\\Space",
+    "meta_key": "google_last_sync_2680",
+    "meta_value": "O:13:\"Carbon\\Carbon\":3:{s:4:\"date\";s:26:\"2019-12-23 16:07:46.890633\";s:13:\"timezone_type\";i:3;s:8:\"timezone\";s:3:\"UTC\";}",
+    "created_at": "2019-12-23 16:07:46",
+    "updated_at": "2019-12-23 16:07:46"
+   },
+   {
+    "id": 2698535327,
+    "describable_id": 805,
+    "describable_type": "App\\Models\\Space",
+    "meta_key": "google_last_sync_2874",
+    "meta_value": "O:13:\"Carbon\\Carbon\":3:{s:4:\"date\";s:26:\"2026-10-12 21:10:56.552489\";s:13:\"timezone_type\";i:3;s:8:\"timezone\";s:3:\"UTC\";}",
+    "created_at": "2026-10-12 21:10:56",
+    "updated_at": "2026-10-12 21:10:56"
+   },
+   {
+    "id": 2698535330,
+    "describable_id": 805,
+    "describable_type": "App\\Models\\Space",
+    "meta_key": "google_last_sync_3038",
+    "meta_value": "O:13:\"Carbon\\Carbon\":3:{s:4:\"date\";s:26:\"2026-10-12 21:10:56.781728\";s:13:\"timezone_type\";i:3;s:8:\"timezone\";s:3:\"UTC\";}",
+    "created_at": "2026-10-12 21:10:56",
+    "updated_at": "2026-10-12 21:10:56"
+   },
+   {
+    "id": 506325218,
+    "describable_id": 805,
+    "describable_type": "App\\Models\\Space",
+    "meta_key": "google_last_sync_3039",
+    "meta_value": "O:13:\"Carbon\\Carbon\":3:{s:4:\"date\";s:26:\"2020-09-01 01:11:22.006734\";s:13:\"timezone_type\";i:3;s:8:\"timezone\";s:3:\"UTC\";}",
+    "created_at": "2020-09-01 01:11:22",
+    "updated_at": "2020-09-01 01:11:22"
+   },
+   {
+    "id": 2668324082,
+    "describable_id": 805,
+    "describable_type": "App\\Models\\Space",
+    "meta_key": "google_last_sync_3079",
+    "meta_value": "O:13:\"Carbon\\Carbon\":3:{s:4:\"date\";s:26:\"2026-08-18 21:50:54.857098\";s:13:\"timezone_type\";i:3;s:8:\"timezone\";s:3:\"UTC\";}",
+    "created_at": "2026-08-18 21:50:54",
+    "updated_at": "2026-08-18 21:50:54"
+   },
+   {
+    "id": 809547688,
+    "describable_id": 805,
+    "describable_type": "App\\Models\\Space",
+    "meta_key": "google_last_sync_3080",
+    "meta_value": "O:13:\"Carbon\\Carbon\":3:{s:4:\"date\";s:26:\"2021-05-17 17:31:10.350357\";s:13:\"timezone_type\";i:3;s:8:\"timezone\";s:3:\"UTC\";}",
+    "created_at": "2021-05-17 17:31:10",
+    "updated_at": "2021-05-17 17:31:10"
+   },
+   {
+    "id": 2698535334,
+    "describable_id": 805,
+    "describable_type": "App\\Models\\Space",
+    "meta_key": "google_last_sync_3081",
+    "meta_value": "O:13:\"Carbon\\Carbon\":3:{s:4:\"date\";s:26:\"2026-10-12 21:10:57.012454\";s:13:\"timezone_type\";i:3;s:8:\"timezone\";s:3:\"UTC\";}",
+    "created_at": "2026-10-12 21:10:57",
+    "updated_at": "2026-10-12 21:10:57"
+   },
+   {
+    "id": 677771354,
+    "describable_id": 805,
+    "describable_type": "App\\Models\\Space",
+    "meta_key": "google_last_sync_3152",
+    "meta_value": "O:13:\"Carbon\\Carbon\":3:{s:4:\"date\";s:26:\"2021-02-09 17:26:10.073912\";s:13:\"timezone_type\";i:3;s:8:\"timezone\";s:3:\"UTC\";}",
+    "created_at": "2021-02-09 17:26:10",
+    "updated_at": "2021-02-09 17:26:10"
+   },
+   {
+    "id": 591907173,
+    "describable_id": 805,
+    "describable_type": "App\\Models\\Space",
+    "meta_key": "google_last_sync_3776",
+    "meta_value": "O:13:\"Carbon\\Carbon\":3:{s:4:\"date\";s:26:\"2020-11-19 18:31:30.096438\";s:13:\"timezone_type\";i:3;s:8:\"timezone\";s:3:\"UTC\";}",
+    "created_at": "2020-11-19 18:31:30",
+    "updated_at": "2020-11-19 18:31:30"
+   },
+   {
+    "id": 591907180,
+    "describable_id": 805,
+    "describable_type": "App\\Models\\Space",
+    "meta_key": "google_last_sync_3777",
+    "meta_value": "O:13:\"Carbon\\Carbon\":3:{s:4:\"date\";s:26:\"2020-11-19 18:31:30.348436\";s:13:\"timezone_type\";i:3;s:8:\"timezone\";s:3:\"UTC\";}",
+    "created_at": "2020-11-19 18:31:30",
+    "updated_at": "2020-11-19 18:31:30"
+   },
+   {
+    "id": 591907186,
+    "describable_id": 805,
+    "describable_type": "App\\Models\\Space",
+    "meta_key": "google_last_sync_3778",
+    "meta_value": "O:13:\"Carbon\\Carbon\":3:{s:4:\"date\";s:26:\"2020-11-19 18:31:30.577875\";s:13:\"timezone_type\";i:3;s:8:\"timezone\";s:3:\"UTC\";}",
+    "created_at": "2020-11-19 18:31:30",
+    "updated_at": "2020-11-19 18:31:30"
+   },
+   {
+    "id": 591907194,
+    "describable_id": 805,
+    "describable_type": "App\\Models\\Space",
+    "meta_key": "google_last_sync_3779",
+    "meta_value": "O:13:\"Carbon\\Carbon\":3:{s:4:\"date\";s:26:\"2020-11-19 18:31:30.831733\";s:13:\"timezone_type\";i:3;s:8:\"timezone\";s:3:\"UTC\";}",
+    "created_at": "2020-11-19 18:31:30",
+    "updated_at": "2020-11-19 18:31:30"
+   },
+   {
+    "id": 840715280,
+    "describable_id": 805,
+    "describable_type": "App\\Models\\Space",
+    "meta_key": "google_last_sync_3780",
+    "meta_value": "O:13:\"Carbon\\Carbon\":3:{s:4:\"date\";s:26:\"2021-06-07 15:56:19.389960\";s:13:\"timezone_type\";i:3;s:8:\"timezone\";s:3:\"UTC\";}",
+    "created_at": "2021-06-07 15:56:19",
+    "updated_at": "2021-06-07 15:56:19"
+   },
+   {
+    "id": 2698535337,
+    "describable_id": 805,
+    "describable_type": "App\\Models\\Space",
+    "meta_key": "google_last_sync_5389",
+    "meta_value": "O:13:\"Carbon\\Carbon\":3:{s:4:\"date\";s:26:\"2026-10-12 21:10:57.191431\";s:13:\"timezone_type\";i:3;s:8:\"timezone\";s:3:\"UTC\";}",
+    "created_at": "2026-10-12 21:10:57",
+    "updated_at": "2026-10-12 21:10:57"
+   },
+   {
+    "id": 2698535341,
+    "describable_id": 805,
+    "describable_type": "App\\Models\\Space",
+    "meta_key": "google_last_sync_5451",
+    "meta_value": "O:13:\"Carbon\\Carbon\":3:{s:4:\"date\";s:26:\"2026-10-12 21:10:57.408935\";s:13:\"timezone_type\";i:3;s:8:\"timezone\";s:3:\"UTC\";}",
+    "created_at": "2026-10-12 21:10:57",
+    "updated_at": "2026-10-12 21:10:57"
+   },
+   {
+    "id": 1174567926,
+    "describable_id": 805,
+    "describable_type": "App\\Models\\Space",
+    "meta_key": "google_last_sync_5523",
+    "meta_value": "O:13:\"Carbon\\Carbon\":3:{s:4:\"date\";s:26:\"2022-01-19 22:21:46.506240\";s:13:\"timezone_type\";i:3;s:8:\"timezone\";s:3:\"UTC\";}",
+    "created_at": "2022-01-19 22:21:46",
+    "updated_at": "2022-01-19 22:21:46"
+   },
+   {
+    "id": 1528706666,
+    "describable_id": 805,
+    "describable_type": "App\\Models\\Space",
+    "meta_key": "google_last_sync_6473",
+    "meta_value": "O:13:\"Carbon\\Carbon\":3:{s:4:\"date\";s:26:\"2022-10-06 17:46:37.709837\";s:13:\"timezone_type\";i:3;s:8:\"timezone\";s:3:\"UTC\";}",
+    "created_at": "2022-10-06 17:46:37",
+    "updated_at": "2022-10-06 17:46:37"
+   },
+   {
+    "id": 2698535345,
+    "describable_id": 805,
+    "describable_type": "App\\Models\\Space",
+    "meta_key": "google_last_sync_6866",
+    "meta_value": "O:13:\"Carbon\\Carbon\":3:{s:4:\"date\";s:26:\"2026-10-12 21:10:57.611350\";s:13:\"timezone_type\";i:3;s:8:\"timezone\";s:3:\"UTC\";}",
+    "created_at": "2026-10-12 21:10:57",
+    "updated_at": "2026-10-12 21:10:57"
+   },
+   {
+    "id": 2395371624,
+    "describable_id": 805,
+    "describable_type": "App\\Models\\Space",
+    "meta_key": "google_last_sync_8369",
+    "meta_value": "O:13:\"Carbon\\Carbon\":3:{s:4:\"date\";s:26:\"2025-05-21 20:36:16.598407\";s:13:\"timezone_type\";i:3;s:8:\"timezone\";s:3:\"UTC\";}",
+    "created_at": "2025-05-21 20:36:16",
+    "updated_at": "2025-05-21 20:36:16"
+   },
+   {
+    "id": 2031687479,
+    "describable_id": 805,
+    "describable_type": "App\\Models\\Space",
+    "meta_key": "google_last_sync_8370",
+    "meta_value": "O:13:\"Carbon\\Carbon\":3:{s:4:\"date\";s:26:\"2024-03-20 16:11:57.054168\";s:13:\"timezone_type\";i:3;s:8:\"timezone\";s:3:\"UTC\";}",
+    "created_at": "2024-03-20 16:11:57",
+    "updated_at": "2024-03-20 16:11:57"
+   },
+   {
+    "id": 2698535349,
+    "describable_id": 805,
+    "describable_type": "App\\Models\\Space",
+    "meta_key": "google_sync_token_10499",
+    "meta_value": "O:31:\"Proximity\\Google\\EventListToken\":2:{s:4:\"type\";s:4:\"sync\";s:5:\"token\";s:44:\"CN-e7czztJcDEN-e7czztJcDGAUgu839rAMou839rAM=\";}",
+    "created_at": "2026-10-12 21:10:57",
+    "updated_at": "2026-10-12 21:10:57"
+   },
+   {
+    "id": 250078537,
+    "describable_id": 805,
+    "describable_type": "App\\Models\\Space",
+    "meta_key": "google_sync_token_2680",
+    "meta_value": "O:31:\"Proximity\\Google\\EventListToken\":2:{s:4:\"type\";s:4:\"sync\";s:5:\"token\";s:28:\"CNCeydCSveYCENCeydCSveYCGAU=\";}",
+    "created_at": "2019-12-23 16:07:46",
+    "updated_at": "2019-12-23 16:07:46"
+   },
+   {
+    "id": 2698535328,
+    "describable_id": 805,
+    "describable_type": "App\\Models\\Space",
+    "meta_key": "google_sync_token_2874",
+    "meta_value": "O:31:\"Proximity\\Google\\EventListToken\":2:{s:4:\"type\";s:4:\"sync\";s:5:\"token\";s:44:\"CK_O9MnztJcDEK_O9MnztJcDGAUg6IvmsQEowaXlkgI=\";}",
+    "created_at": "2026-10-12 21:10:56",
+    "updated_at": "2026-10-12 21:10:56"
+   },
+   {
+    "id": 2698535332,
+    "describable_id": 805,
+    "describable_type": "App\\Models\\Space",
+    "meta_key": "google_sync_token_3038",
+    "meta_value": "O:31:\"Proximity\\Google\\EventListToken\":2:{s:4:\"type\";s:4:\"sync\";s:5:\"token\";s:44:\"CM_iqLvytJcDEM_iqLvytJcDGAUgzNG6qgEowaXlkgI=\";}",
+    "created_at": "2026-10-12 21:10:56",
+    "updated_at": "2026-10-12 21:10:56"
+   },
+   {
+    "id": 506325217,
+    "describable_id": 805,
+    "describable_type": "App\\Models\\Space",
+    "meta_key": "google_sync_token_3039",
+    "meta_value": "O:31:\"Proximity\\Google\\EventListToken\":2:{s:4:\"type\";s:4:\"sync\";s:5:\"token\";s:28:\"CKDz4bzMh-oCEKDz4bzMh-oCGAU=\";}",
+    "created_at": "2020-09-01 01:11:22",
+    "updated_at": "2020-09-01 01:11:22"
+   },
+   {
+    "id": 2668324083,
+    "describable_id": 805,
+    "describable_type": "App\\Models\\Space",
+    "meta_key": "google_sync_token_3079",
+    "meta_value": "O:31:\"Proximity\\Google\\EventListToken\":2:{s:4:\"type\";s:4:\"sync\";s:5:\"token\";s:44:\"CI_6jrno65UDEI_6jrno65UDGAUg-fPWvAMo-fPWvAM=\";}",
+    "created_at": "2026-08-18 21:50:55",
+    "updated_at": "2026-08-18 21:50:55"
+   },
+   {
+    "id": 809547687,
+    "describable_id": 805,
+    "describable_type": "App\\Models\\Space",
+    "meta_key": "google_sync_token_3080",
+    "meta_value": "O:31:\"Proximity\\Google\\EventListToken\":2:{s:4:\"type\";s:4:\"sync\";s:5:\"token\";s:36:\"CKij06qAgewCEKij06qAgewCGAUgzNG6qgE=\";}",
+    "created_at": "2021-05-17 17:31:10",
+    "updated_at": "2021-05-17 17:31:10"
+   },
+   {
+    "id": 2698535335,
+    "describable_id": 805,
+    "describable_type": "App\\Models\\Space",
+    "meta_key": "google_sync_token_3081",
+    "meta_value": "O:31:\"Proximity\\Google\\EventListToken\":2:{s:4:\"type\";s:4:\"sync\";s:5:\"token\";s:44:\"CP_fnLqYhpcDEP_fnLqYhpcDGAUg0MCgzwMo0MCgzwM=\";}",
+    "created_at": "2026-10-12 21:10:57",
+    "updated_at": "2026-10-12 21:10:57"
+   },
+   {
+    "id": 677771353,
+    "describable_id": 805,
+    "describable_type": "App\\Models\\Space",
+    "meta_key": "google_sync_token_3152",
+    "meta_value": "O:31:\"Proximity\\Google\\EventListToken\":2:{s:4:\"type\";s:4:\"sync\";s:5:\"token\";s:28:\"CPjtir7Q4-sCEPjtir7Q4-sCGAU=\";}",
+    "created_at": "2021-02-09 17:26:10",
+    "updated_at": "2021-02-09 17:26:10"
+   },
+   {
+    "id": 591907172,
+    "describable_id": 805,
+    "describable_type": "App\\Models\\Space",
+    "meta_key": "google_sync_token_3776",
+    "meta_value": "O:31:\"Proximity\\Google\\EventListToken\":2:{s:4:\"type\";s:4:\"sync\";s:5:\"token\";s:28:\"CMD8_LfQ3OsCEMD8_LfQ3OsCGAU=\";}",
+    "created_at": "2020-11-19 18:31:30",
+    "updated_at": "2020-11-19 18:31:30"
+   },
+   {
+    "id": 591907178,
+    "describable_id": 805,
+    "describable_type": "App\\Models\\Space",
+    "meta_key": "google_sync_token_3777",
+    "meta_value": "O:31:\"Proximity\\Google\\EventListToken\":2:{s:4:\"type\";s:4:\"sync\";s:5:\"token\";s:28:\"CKDKgIKs6-sCEKDKgIKs6-sCGAU=\";}",
+    "created_at": "2020-11-19 18:31:30",
+    "updated_at": "2020-11-19 18:31:30"
+   },
+   {
+    "id": 591907185,
+    "describable_id": 805,
+    "describable_type": "App\\Models\\Space",
+    "meta_key": "google_sync_token_3778",
+    "meta_value": "O:31:\"Proximity\\Google\\EventListToken\":2:{s:4:\"type\";s:4:\"sync\";s:5:\"token\";s:28:\"COiCl-W75OsCEOiCl-W75OsCGAU=\";}",
+    "created_at": "2020-11-19 18:31:30",
+    "updated_at": "2020-11-19 18:31:30"
+   },
+   {
+    "id": 591907193,
+    "describable_id": 805,
+    "describable_type": "App\\Models\\Space",
+    "meta_key": "google_sync_token_3779",
+    "meta_value": "O:31:\"Proximity\\Google\\EventListToken\":2:{s:4:\"type\";s:4:\"sync\";s:5:\"token\";s:28:\"CJi3_t-H5esCEJi3_t-H5esCGAU=\";}",
+    "created_at": "2020-11-19 18:31:30",
+    "updated_at": "2020-11-19 18:31:30"
+   },
+   {
+    "id": 840715279,
+    "describable_id": 805,
+    "describable_type": "App\\Models\\Space",
+    "meta_key": "google_sync_token_3780",
+    "meta_value": "O:31:\"Proximity\\Google\\EventListToken\":2:{s:4:\"type\";s:4:\"sync\";s:5:\"token\";s:36:\"CJCL5ovM0fACEJCL5ovM0fACGAUg6IvmsQE=\";}",
+    "created_at": "2021-06-07 15:56:19",
+    "updated_at": "2021-06-07 15:56:19"
+   },
+   {
+    "id": 2698535339,
+    "describable_id": 805,
+    "describable_type": "App\\Models\\Space",
+    "meta_key": "google_sync_token_5389",
+    "meta_value": "O:31:\"Proximity\\Google\\EventListToken\":2:{s:4:\"type\";s:4:\"sync\";s:5:\"token\";s:44:\"CI-K8MrztJcDEI-K8MrztJcDGAUgoo-S1AMooo-S1AM=\";}",
+    "created_at": "2026-10-12 21:10:57",
+    "updated_at": "2026-10-12 21:10:57"
+   },
+   {
+    "id": 2698535343,
+    "describable_id": 805,
+    "describable_type": "App\\Models\\Space",
+    "meta_key": "google_sync_token_5451",
+    "meta_value": "O:31:\"Proximity\\Google\\EventListToken\":2:{s:4:\"type\";s:4:\"sync\";s:5:\"token\";s:44:\"CO-i9svztJcDEO-i9svztJcDGAUgw67KlwMow67KlwM=\";}",
+    "created_at": "2026-10-12 21:10:57",
+    "updated_at": "2026-10-12 21:10:57"
+   },
+   {
+    "id": 1174567925,
+    "describable_id": 805,
+    "describable_type": "App\\Models\\Space",
+    "meta_key": "google_sync_token_5523",
+    "meta_value": "O:31:\"Proximity\\Google\\EventListToken\":2:{s:4:\"type\";s:4:\"sync\";s:5:\"token\";s:36:\"CPixo4rPmPUCEPixo4rPmPUCGAUg66KDxgE=\";}",
+    "created_at": "2022-01-19 22:21:46",
+    "updated_at": "2022-01-19 22:21:46"
+   },
+   {
+    "id": 1528706665,
+    "describable_id": 805,
+    "describable_type": "App\\Models\\Space",
+    "meta_key": "google_sync_token_6473",
+    "meta_value": "O:31:\"Proximity\\Google\\EventListToken\":2:{s:4:\"type\";s:4:\"sync\";s:5:\"token\";s:36:\"CNjy943vqPoCENjy943vqPoCGAUg7OLV4gE=\";}",
+    "created_at": "2022-10-06 17:46:37",
+    "updated_at": "2022-10-06 17:46:37"
+   },
+   {
+    "id": 2698535346,
+    "describable_id": 805,
+    "describable_type": "App\\Models\\Space",
+    "meta_key": "google_sync_token_6866",
+    "meta_value": "O:31:\"Proximity\\Google\\EventListToken\":2:{s:4:\"type\";s:4:\"sync\";s:5:\"token\";s:44:\"CL_gjtiatZcDEL_gjtiatZcDGAUgnd-Y0gEowd3SkAI=\";}",
+    "created_at": "2026-10-12 21:10:57",
+    "updated_at": "2026-10-12 21:10:57"
+   },
+   {
+    "id": 2395371625,
+    "describable_id": 805,
+    "describable_type": "App\\Models\\Space",
+    "meta_key": "google_sync_token_8369",
+    "meta_value": "O:31:\"Proximity\\Google\\EventListToken\":2:{s:4:\"type\";s:4:\"sync\";s:5:\"token\";s:44:\"CO-xla6ktY0DEO-xla6ktY0DGAUgnuzN5AIonuzN5AI=\";}",
+    "created_at": "2025-05-21 20:36:16",
+    "updated_at": "2025-05-21 20:36:16"
+   },
+   {
+    "id": 2031687483,
+    "describable_id": 805,
+    "describable_type": "App\\Models\\Space",
+    "meta_key": "google_sync_token_8370",
+    "meta_value": "O:31:\"Proximity\\Google\\EventListToken\":2:{s:4:\"type\";s:4:\"sync\";s:5:\"token\";s:44:\"CODppIXogIUDEODppIXogIUDGAUg9Nm_pQIo9Nm_pQI=\";}",
+    "created_at": "2024-03-20 16:11:57",
+    "updated_at": "2024-03-20 16:11:57"
+   },
+   {
+    "id": 2668325185,
+    "describable_id": 805,
+    "describable_type": "App\\Models\\Space",
+    "meta_key": "hasEditedConferenceRooms",
+    "meta_value": "1",
+    "created_at": "2026-08-18 21:53:54",
+    "updated_at": "2026-08-18 21:53:54"
+   },
+   {
+    "id": 2690683282,
+    "describable_id": 805,
+    "describable_type": "App\\Models\\Space",
+    "meta_key": "hasEditedMembershipLevels",
+    "meta_value": "1",
+    "created_at": "2026-09-28 23:00:27",
+    "updated_at": "2026-09-28 23:00:27"
+   },
+   {
+    "id": 1489370159,
+    "describable_id": 805,
+    "describable_type": "App\\Models\\Space",
+    "meta_key": "hasEditedNomad",
+    "meta_value": "1",
+    "created_at": "2022-08-25 18:02:12",
+    "updated_at": "2022-08-25 18:02:12"
+   },
+   {
+    "id": 2611966546,
+    "describable_id": 805,
+    "describable_type": "App\\Models\\Space",
+    "meta_key": "login_lead",
+    "meta_value": "<p>We are so excited to have you! Please log in if you have an account with us. If you are new, please register for a free Public Access Membership to get started! From there, you will be able to create your profile, book studios, register for events, and more! Once registered, you may upgrade your membership level at any time.</p>",
+    "created_at": "2026-05-12 20:50:07",
+    "updated_at": "2026-05-12 20:50:07"
+   },
+   {
+    "id": 1136330363,
+    "describable_id": 805,
+    "describable_type": "App\\Models\\Space",
+    "meta_key": "mailchimp_category_id",
+    "meta_value": "bb1c94870b",
+    "created_at": "2021-12-25 04:05:44",
+    "updated_at": "2021-12-25 04:05:44"
+   },
+   {
+    "id": 2671633770,
+    "describable_id": 805,
+    "describable_type": "App\\Models\\Space",
+    "meta_key": "manager_can_view_revenue",
+    "meta_value": "1",
+    "created_at": "2026-08-24 20:27:17",
+    "updated_at": "2026-08-24 20:27:17"
+   },
+   {
+    "id": 1836358875,
+    "describable_id": 805,
+    "describable_type": "App\\Models\\Space",
+    "meta_key": "membership_contracts_enabled",
+    "meta_value": "0",
+    "created_at": "2023-08-31 14:20:41",
+    "updated_at": "2023-08-31 14:20:41"
+   },
+   {
+    "id": 2611966545,
+    "describable_id": 805,
+    "describable_type": "App\\Models\\Space",
+    "meta_key": "my_membership_page_description",
+    "meta_value": "<p>We are excited to welcome you! By choosing a membership, you can connect with the community and begin using the media makerspace.&nbsp;Choose the membership that is right for you!</p>",
+    "created_at": "2026-05-12 20:50:07",
+    "updated_at": "2026-05-12 20:50:07"
+   },
+   {
+    "id": 2611966544,
+    "describable_id": 805,
+    "describable_type": "App\\Models\\Space",
+    "meta_key": "my_membership_page_title",
+    "meta_value": "Join our growing community!",
+    "created_at": "2026-05-12 20:50:07",
+    "updated_at": "2026-05-12 20:50:07"
+   },
+   {
+    "id": 1836358871,
+    "describable_id": 805,
+    "describable_type": "App\\Models\\Space",
+    "meta_key": "Nest_enabled",
+    "meta_value": "0",
+    "created_at": "2023-08-31 14:20:41",
+    "updated_at": "2023-08-31 14:20:41"
+   },
+   {
+    "id": 369954583,
+    "describable_id": 805,
+    "describable_type": "App\\Models\\Space",
+    "meta_key": "recurring_reservations_billed_for_april_2020",
+    "meta_value": "1",
+    "created_at": "2020-04-01 06:07:51",
+    "updated_at": "2020-04-01 06:07:51"
+   },
+   {
+    "id": 745658325,
+    "describable_id": 805,
+    "describable_type": "App\\Models\\Space",
+    "meta_key": "recurring_reservations_billed_for_april_2021",
+    "meta_value": "1",
+    "created_at": "2021-04-01 06:16:29",
+    "updated_at": "2021-04-01 06:16:29"
+   },
+   {
+    "id": 1295722896,
+    "describable_id": 805,
+    "describable_type": "App\\Models\\Space",
+    "meta_key": "recurring_reservations_billed_for_april_2022",
+    "meta_value": "1",
+    "created_at": "2022-04-01 06:16:34",
+    "updated_at": "2022-04-01 06:16:34"
+   },
+   {
+    "id": 2044173793,
+    "describable_id": 805,
+    "describable_type": "App\\Models\\Space",
+    "meta_key": "recurring_reservations_billed_for_april_2024",
+    "meta_value": "1",
+    "created_at": "2024-04-01 06:21:11",
+    "updated_at": "2024-04-01 06:21:11"
+   },
+   {
+    "id": 2363978669,
+    "describable_id": 805,
+    "describable_type": "App\\Models\\Space",
+    "meta_key": "recurring_reservations_billed_for_april_2025",
+    "meta_value": "1",
+    "created_at": "2025-04-01 06:19:31",
+    "updated_at": "2025-04-01 06:19:31"
+   },
+   {
+    "id": 2588549396,
+    "describable_id": 805,
+    "describable_type": "App\\Models\\Space",
+    "meta_key": "recurring_reservations_billed_for_april_2026",
+    "meta_value": "1",
+    "created_at": "2026-04-01 06:19:33",
+    "updated_at": "2026-04-01 06:19:33"
+   },
+   {
+    "id": 474240688,
+    "describable_id": 805,
+    "describable_type": "App\\Models\\Space",
+    "meta_key": "recurring_reservations_billed_for_august_2020",
+    "meta_value": "1",
+    "created_at": "2020-08-01 06:11:03",
+    "updated_at": "2020-08-01 06:11:03"
+   },
+   {
+    "id": 919426419,
+    "describable_id": 805,
+    "describable_type": "App\\Models\\Space",
+    "meta_key": "recurring_reservations_billed_for_august_2021",
+    "meta_value": "1",
+    "created_at": "2021-08-01 06:22:50",
+    "updated_at": "2021-08-01 06:22:50"
+   },
+   {
+    "id": 1467338120,
+    "describable_id": 805,
+    "describable_type": "App\\Models\\Space",
+    "meta_key": "recurring_reservations_billed_for_august_2022",
+    "meta_value": "1",
+    "created_at": "2022-08-01 06:21:17",
+    "updated_at": "2022-08-01 06:21:17"
+   },
+   {
+    "id": 1806617767,
+    "describable_id": 805,
+    "describable_type": "App\\Models\\Space",
+    "meta_key": "recurring_reservations_billed_for_august_2023",
+    "meta_value": "1",
+    "created_at": "2023-08-01 06:22:09",
+    "updated_at": "2023-08-01 06:22:09"
+   },
+   {
+    "id": 2179045842,
+    "describable_id": 805,
+    "describable_type": "App\\Models\\Space",
+    "meta_key": "recurring_reservations_billed_for_august_2024",
+    "meta_value": "1",
+    "created_at": "2024-08-01 06:20:52",
+    "updated_at": "2024-08-01 06:20:52"
+   },
+   {
+    "id": 2442045803,
+    "describable_id": 805,
+    "describable_type": "App\\Models\\Space",
+    "meta_key": "recurring_reservations_billed_for_august_2025",
+    "meta_value": "1",
+    "created_at": "2025-08-01 06:25:07",
+    "updated_at": "2025-08-01 06:25:07"
+   },
+   {
+    "id": 2658578159,
+    "describable_id": 805,
+    "describable_type": "App\\Models\\Space",
+    "meta_key": "recurring_reservations_billed_for_august_2026",
+    "meta_value": "1",
+    "created_at": "2026-08-01 06:21:43",
+    "updated_at": "2026-08-01 06:21:43"
+   },
+   {
+    "id": 603326701,
+    "describable_id": 805,
+    "describable_type": "App\\Models\\Space",
+    "meta_key": "recurring_reservations_billed_for_december_2020",
+    "meta_value": "1",
+    "created_at": "2020-12-01 07:13:43",
+    "updated_at": "2020-12-01 07:13:43"
+   },
+   {
+    "id": 1097970924,
+    "describable_id": 805,
+    "describable_type": "App\\Models\\Space",
+    "meta_key": "recurring_reservations_billed_for_december_2021",
+    "meta_value": "1",
+    "created_at": "2021-12-01 07:27:46",
+    "updated_at": "2021-12-01 07:27:46"
+   },
+   {
+    "id": 1582243291,
+    "describable_id": 805,
+    "describable_type": "App\\Models\\Space",
+    "meta_key": "recurring_reservations_billed_for_december_2022",
+    "meta_value": "1",
+    "created_at": "2022-12-01 07:21:21",
+    "updated_at": "2022-12-01 07:21:21"
+   },
+   {
+    "id": 1921383445,
+    "describable_id": 805,
+    "describable_type": "App\\Models\\Space",
+    "meta_key": "recurring_reservations_billed_for_december_2023",
+    "meta_value": "1",
+    "created_at": "2023-12-01 07:23:19",
+    "updated_at": "2023-12-01 07:23:19"
+   },
+   {
+    "id": 2279875869,
+    "describable_id": 805,
+    "describable_type": "App\\Models\\Space",
+    "meta_key": "recurring_reservations_billed_for_december_2024",
+    "meta_value": "1",
+    "created_at": "2024-12-01 07:30:07",
+    "updated_at": "2024-12-01 07:30:07"
+   },
+   {
+    "id": 2517841994,
+    "describable_id": 805,
+    "describable_type": "App\\Models\\Space",
+    "meta_key": "recurring_reservations_billed_for_december_2025",
+    "meta_value": "1",
+    "created_at": "2025-12-01 07:20:18",
+    "updated_at": "2025-12-01 07:20:18"
+   },
+   {
+    "id": 667906375,
+    "describable_id": 805,
+    "describable_type": "App\\Models\\Space",
+    "meta_key": "recurring_reservations_billed_for_february_2021",
+    "meta_value": "1",
+    "created_at": "2021-02-01 07:45:28",
+    "updated_at": "2021-02-01 07:45:28"
+   },
+   {
+    "id": 1193539901,
+    "describable_id": 805,
+    "describable_type": "App\\Models\\Space",
+    "meta_key": "recurring_reservations_billed_for_february_2022",
+    "meta_value": "1",
+    "created_at": "2022-02-01 07:19:50",
+    "updated_at": "2022-02-01 07:19:50"
+   },
+   {
+    "id": 1640194815,
+    "describable_id": 805,
+    "describable_type": "App\\Models\\Space",
+    "meta_key": "recurring_reservations_billed_for_february_2023",
+    "meta_value": "1",
+    "created_at": "2023-02-01 07:24:47",
+    "updated_at": "2023-02-01 07:24:47"
+   },
+   {
+    "id": 1981117688,
+    "describable_id": 805,
+    "describable_type": "App\\Models\\Space",
+    "meta_key": "recurring_reservations_billed_for_february_2024",
+    "meta_value": "1",
+    "created_at": "2024-02-01 07:21:22",
+    "updated_at": "2024-02-01 07:21:22"
+   },
+   {
+    "id": 2323374151,
+    "describable_id": 805,
+    "describable_type": "App\\Models\\Space",
+    "meta_key": "recurring_reservations_billed_for_february_2025",
+    "meta_value": "1",
+    "created_at": "2025-02-01 07:17:52",
+    "updated_at": "2025-02-01 07:17:52"
+   },
+   {
+    "id": 2554788791,
+    "describable_id": 805,
+    "describable_type": "App\\Models\\Space",
+    "meta_key": "recurring_reservations_billed_for_february_2026",
+    "meta_value": "1",
+    "created_at": "2026-02-01 07:17:12",
+    "updated_at": "2026-02-01 07:17:12"
+   },
+   {
+    "id": 1146481973,
+    "describable_id": 805,
+    "describable_type": "App\\Models\\Space",
+    "meta_key": "recurring_reservations_billed_for_january_2022",
+    "meta_value": "1",
+    "created_at": "2022-01-01 07:20:34",
+    "updated_at": "2022-01-01 07:20:34"
+   },
+   {
+    "id": 1610883055,
+    "describable_id": 805,
+    "describable_type": "App\\Models\\Space",
+    "meta_key": "recurring_reservations_billed_for_january_2023",
+    "meta_value": "1",
+    "created_at": "2023-01-01 07:22:15",
+    "updated_at": "2023-01-01 07:22:15"
+   },
+   {
+    "id": 1950459111,
+    "describable_id": 805,
+    "describable_type": "App\\Models\\Space",
+    "meta_key": "recurring_reservations_billed_for_january_2024",
+    "meta_value": "1",
+    "created_at": "2024-01-01 07:24:04",
+    "updated_at": "2024-01-01 07:24:04"
+   },
+   {
+    "id": 2301889774,
+    "describable_id": 805,
+    "describable_type": "App\\Models\\Space",
+    "meta_key": "recurring_reservations_billed_for_january_2025",
+    "meta_value": "1",
+    "created_at": "2025-01-01 07:19:20",
+    "updated_at": "2025-01-01 07:19:20"
+   },
+   {
+    "id": 2536129816,
+    "describable_id": 805,
+    "describable_type": "App\\Models\\Space",
+    "meta_key": "recurring_reservations_billed_for_january_2026",
+    "meta_value": "1",
+    "created_at": "2026-01-01 07:25:21",
+    "updated_at": "2026-01-01 07:25:21"
+   },
+   {
+    "id": 447690007,
+    "describable_id": 805,
+    "describable_type": "App\\Models\\Space",
+    "meta_key": "recurring_reservations_billed_for_july_2020",
+    "meta_value": "1",
+    "created_at": "2020-07-01 06:09:46",
+    "updated_at": "2020-07-01 06:09:46"
+   },
+   {
+    "id": 874897905,
+    "describable_id": 805,
+    "describable_type": "App\\Models\\Space",
+    "meta_key": "recurring_reservations_billed_for_july_2021",
+    "meta_value": "1",
+    "created_at": "2021-07-01 06:19:00",
+    "updated_at": "2021-07-01 06:19:00"
+   },
+   {
+    "id": 1441388571,
+    "describable_id": 805,
+    "describable_type": "App\\Models\\Space",
+    "meta_key": "recurring_reservations_billed_for_july_2022",
+    "meta_value": "1",
+    "created_at": "2022-07-01 06:18:01",
+    "updated_at": "2022-07-01 06:18:01"
+   },
+   {
+    "id": 1781776159,
+    "describable_id": 805,
+    "describable_type": "App\\Models\\Space",
+    "meta_key": "recurring_reservations_billed_for_july_2023",
+    "meta_value": "1",
+    "created_at": "2023-07-01 06:20:59",
+    "updated_at": "2023-07-01 06:20:59"
+   },
+   {
+    "id": 2144388289,
+    "describable_id": 805,
+    "describable_type": "App\\Models\\Space",
+    "meta_key": "recurring_reservations_billed_for_july_2024",
+    "meta_value": "1",
+    "created_at": "2024-07-01 06:21:06",
+    "updated_at": "2024-07-01 06:21:06"
+   },
+   {
+    "id": 2421436317,
+    "describable_id": 805,
+    "describable_type": "App\\Models\\Space",
+    "meta_key": "recurring_reservations_billed_for_july_2025",
+    "meta_value": "1",
+    "created_at": "2025-07-01 06:25:13",
+    "updated_at": "2025-07-01 06:25:13"
+   },
+   {
+    "id": 2641014187,
+    "describable_id": 805,
+    "describable_type": "App\\Models\\Space",
+    "meta_key": "recurring_reservations_billed_for_july_2026",
+    "meta_value": "1",
+    "created_at": "2026-07-01 06:21:26",
+    "updated_at": "2026-07-01 06:21:26"
+   },
+   {
+    "id": 425765339,
+    "describable_id": 805,
+    "describable_type": "App\\Models\\Space",
+    "meta_key": "recurring_reservations_billed_for_june_2020",
+    "meta_value": "1",
+    "created_at": "2020-06-01 06:08:48",
+    "updated_at": "2020-06-01 06:08:48"
+   },
+   {
+    "id": 830957744,
+    "describable_id": 805,
+    "describable_type": "App\\Models\\Space",
+    "meta_key": "recurring_reservations_billed_for_june_2021",
+    "meta_value": "1",
+    "created_at": "2021-06-01 06:16:42",
+    "updated_at": "2021-06-01 06:16:42"
+   },
+   {
+    "id": 1405764376,
+    "describable_id": 805,
+    "describable_type": "App\\Models\\Space",
+    "meta_key": "recurring_reservations_billed_for_june_2022",
+    "meta_value": "1",
+    "created_at": "2022-06-01 06:18:46",
+    "updated_at": "2022-06-01 06:18:46"
+   },
+   {
+    "id": 1753208931,
+    "describable_id": 805,
+    "describable_type": "App\\Models\\Space",
+    "meta_key": "recurring_reservations_billed_for_june_2023",
+    "meta_value": "1",
+    "created_at": "2023-06-01 06:23:15",
+    "updated_at": "2023-06-01 06:23:15"
+   },
+   {
+    "id": 2111170198,
+    "describable_id": 805,
+    "describable_type": "App\\Models\\Space",
+    "meta_key": "recurring_reservations_billed_for_june_2024",
+    "meta_value": "1",
+    "created_at": "2024-06-01 06:19:14",
+    "updated_at": "2024-06-01 06:19:14"
+   },
+   {
+    "id": 2401914351,
+    "describable_id": 805,
+    "describable_type": "App\\Models\\Space",
+    "meta_key": "recurring_reservations_billed_for_june_2025",
+    "meta_value": "1",
+    "created_at": "2025-06-01 06:16:22",
+    "updated_at": "2025-06-01 06:16:22"
+   },
+   {
+    "id": 2623197885,
+    "describable_id": 805,
+    "describable_type": "App\\Models\\Space",
+    "meta_key": "recurring_reservations_billed_for_june_2026",
+    "meta_value": "1",
+    "created_at": "2026-06-01 06:21:28",
+    "updated_at": "2026-06-01 06:21:28"
+   },
+   {
+    "id": 701685040,
+    "describable_id": 805,
+    "describable_type": "App\\Models\\Space",
+    "meta_key": "recurring_reservations_billed_for_march_2021",
+    "meta_value": "1",
+    "created_at": "2021-03-01 07:15:59",
+    "updated_at": "2021-03-01 07:15:59"
+   },
+   {
+    "id": 1239474313,
+    "describable_id": 805,
+    "describable_type": "App\\Models\\Space",
+    "meta_key": "recurring_reservations_billed_for_march_2022",
+    "meta_value": "1",
+    "created_at": "2022-03-01 07:19:26",
+    "updated_at": "2022-03-01 07:19:26"
+   },
+   {
+    "id": 1667221255,
+    "describable_id": 805,
+    "describable_type": "App\\Models\\Space",
+    "meta_key": "recurring_reservations_billed_for_march_2023",
+    "meta_value": "1",
+    "created_at": "2023-03-01 07:28:16",
+    "updated_at": "2023-03-01 07:28:16"
+   },
+   {
+    "id": 2011612316,
+    "describable_id": 805,
+    "describable_type": "App\\Models\\Space",
+    "meta_key": "recurring_reservations_billed_for_march_2024",
+    "meta_value": "1",
+    "created_at": "2024-03-01 07:22:38",
+    "updated_at": "2024-03-01 07:22:38"
+   },
+   {
+    "id": 2343373812,
+    "describable_id": 805,
+    "describable_type": "App\\Models\\Space",
+    "meta_key": "recurring_reservations_billed_for_march_2025",
+    "meta_value": "1",
+    "created_at": "2025-03-01 07:17:46",
+    "updated_at": "2025-03-01 07:17:46"
+   },
+   {
+    "id": 2571013750,
+    "describable_id": 805,
+    "describable_type": "App\\Models\\Space",
+    "meta_key": "recurring_reservations_billed_for_march_2026",
+    "meta_value": "1",
+    "created_at": "2026-03-01 07:17:27",
+    "updated_at": "2026-03-01 07:17:27"
+   },
+   {
+    "id": 398449568,
+    "describable_id": 805,
+    "describable_type": "App\\Models\\Space",
+    "meta_key": "recurring_reservations_billed_for_may_2020",
+    "meta_value": "1",
+    "created_at": "2020-05-01 06:08:21",
+    "updated_at": "2020-05-01 06:08:21"
+   },
+   {
+    "id": 785861571,
+    "describable_id": 805,
+    "describable_type": "App\\Models\\Space",
+    "meta_key": "recurring_reservations_billed_for_may_2021",
+    "meta_value": "1",
+    "created_at": "2021-05-01 06:16:00",
+    "updated_at": "2021-05-01 06:16:00"
+   },
+   {
+    "id": 1353375135,
+    "describable_id": 805,
+    "describable_type": "App\\Models\\Space",
+    "meta_key": "recurring_reservations_billed_for_may_2022",
+    "meta_value": "1",
+    "created_at": "2022-05-01 06:15:27",
+    "updated_at": "2022-05-01 06:15:27"
+   },
+   {
+    "id": 1724281639,
+    "describable_id": 805,
+    "describable_type": "App\\Models\\Space",
+    "meta_key": "recurring_reservations_billed_for_may_2023",
+    "meta_value": "1",
+    "created_at": "2023-05-01 06:22:26",
+    "updated_at": "2023-05-01 06:22:26"
+   },
+   {
+    "id": 2077200667,
+    "describable_id": 805,
+    "describable_type": "App\\Models\\Space",
+    "meta_key": "recurring_reservations_billed_for_may_2024",
+    "meta_value": "1",
+    "created_at": "2024-05-01 06:18:14",
+    "updated_at": "2024-05-01 06:18:14"
+   },
+   {
+    "id": 2382662958,
+    "describable_id": 805,
+    "describable_type": "App\\Models\\Space",
+    "meta_key": "recurring_reservations_billed_for_may_2025",
+    "meta_value": "1",
+    "created_at": "2025-05-01 06:18:45",
+    "updated_at": "2025-05-01 06:18:45"
+   },
+   {
+    "id": 2605355739,
+    "describable_id": 805,
+    "describable_type": "App\\Models\\Space",
+    "meta_key": "recurring_reservations_billed_for_may_2026",
+    "meta_value": "1",
+    "created_at": "2026-05-01 06:22:04",
+    "updated_at": "2026-05-01 06:22:04"
+   },
+   {
+    "id": 571426391,
+    "describable_id": 805,
+    "describable_type": "App\\Models\\Space",
+    "meta_key": "recurring_reservations_billed_for_november_2020",
+    "meta_value": "1",
+    "created_at": "2020-11-01 06:17:17",
+    "updated_at": "2020-11-01 06:17:17"
+   },
+   {
+    "id": 1052015173,
+    "describable_id": 805,
+    "describable_type": "App\\Models\\Space",
+    "meta_key": "recurring_reservations_billed_for_november_2021",
+    "meta_value": "1",
+    "created_at": "2021-11-01 06:28:13",
+    "updated_at": "2021-11-01 06:28:13"
+   },
+   {
+    "id": 1553080331,
+    "describable_id": 805,
+    "describable_type": "App\\Models\\Space",
+    "meta_key": "recurring_reservations_billed_for_november_2022",
+    "meta_value": "1",
+    "created_at": "2022-11-01 06:17:46",
+    "updated_at": "2022-11-01 06:17:46"
+   },
+   {
+    "id": 1893654179,
+    "describable_id": 805,
+    "describable_type": "App\\Models\\Space",
+    "meta_key": "recurring_reservations_billed_for_november_2023",
+    "meta_value": "1",
+    "created_at": "2023-11-01 06:20:49",
+    "updated_at": "2023-11-01 06:20:49"
+   },
+   {
+    "id": 2257098358,
+    "describable_id": 805,
+    "describable_type": "App\\Models\\Space",
+    "meta_key": "recurring_reservations_billed_for_november_2024",
+    "meta_value": "1",
+    "created_at": "2024-11-01 06:23:40",
+    "updated_at": "2024-11-01 06:23:40"
+   },
+   {
+    "id": 2500492169,
+    "describable_id": 805,
+    "describable_type": "App\\Models\\Space",
+    "meta_key": "recurring_reservations_billed_for_november_2025",
+    "meta_value": "1",
+    "created_at": "2025-11-01 06:18:22",
+    "updated_at": "2025-11-01 06:18:22"
+   },
+   {
+    "id": 538703278,
+    "describable_id": 805,
+    "describable_type": "App\\Models\\Space",
+    "meta_key": "recurring_reservations_billed_for_october_2020",
+    "meta_value": "1",
+    "created_at": "2020-10-01 06:15:56",
+    "updated_at": "2020-10-01 06:15:56"
+   },
+   {
+    "id": 1005578532,
+    "describable_id": 805,
+    "describable_type": "App\\Models\\Space",
+    "meta_key": "recurring_reservations_billed_for_october_2021",
+    "meta_value": "1",
+    "created_at": "2021-10-01 06:24:40",
+    "updated_at": "2021-10-01 06:24:40"
+   },
+   {
+    "id": 1523487621,
+    "describable_id": 805,
+    "describable_type": "App\\Models\\Space",
+    "meta_key": "recurring_reservations_billed_for_october_2022",
+    "meta_value": "1",
+    "created_at": "2022-10-01 06:19:30",
+    "updated_at": "2022-10-01 06:19:30"
+   },
+   {
+    "id": 1864716427,
+    "describable_id": 805,
+    "describable_type": "App\\Models\\Space",
+    "meta_key": "recurring_reservations_billed_for_october_2023",
+    "meta_value": "1",
+    "created_at": "2023-10-01 06:19:03",
+    "updated_at": "2023-10-01 06:19:03"
+   },
+   {
+    "id": 2233122875,
+    "describable_id": 805,
+    "describable_type": "App\\Models\\Space",
+    "meta_key": "recurring_reservations_billed_for_october_2024",
+    "meta_value": "1",
+    "created_at": "2024-10-01 06:21:50",
+    "updated_at": "2024-10-01 06:21:50"
+   },
+   {
+    "id": 2482348593,
+    "describable_id": 805,
+    "describable_type": "App\\Models\\Space",
+    "meta_key": "recurring_reservations_billed_for_october_2025",
+    "meta_value": "1",
+    "created_at": "2025-10-01 06:23:11",
+    "updated_at": "2025-10-01 06:23:11"
+   },
+   {
+    "id": 2691950719,
+    "describable_id": 805,
+    "describable_type": "App\\Models\\Space",
+    "meta_key": "recurring_reservations_billed_for_october_2026",
+    "meta_value": "1",
+    "created_at": "2026-10-01 06:20:07",
+    "updated_at": "2026-10-01 06:20:07"
+   },
+   {
+    "id": 506562817,
+    "describable_id": 805,
+    "describable_type": "App\\Models\\Space",
+    "meta_key": "recurring_reservations_billed_for_september_2020",
+    "meta_value": "1",
+    "created_at": "2020-09-01 06:11:12",
+    "updated_at": "2020-09-01 06:11:12"
+   },
+   {
+    "id": 963375341,
+    "describable_id": 805,
+    "describable_type": "App\\Models\\Space",
+    "meta_key": "recurring_reservations_billed_for_september_2021",
+    "meta_value": "1",
+    "created_at": "2021-09-01 06:24:30",
+    "updated_at": "2021-09-01 06:24:30"
+   },
+   {
+    "id": 1495298375,
+    "describable_id": 805,
+    "describable_type": "App\\Models\\Space",
+    "meta_key": "recurring_reservations_billed_for_september_2022",
+    "meta_value": "1",
+    "created_at": "2022-09-01 06:17:28",
+    "updated_at": "2022-09-01 06:17:28"
+   },
+   {
+    "id": 1837048905,
+    "describable_id": 805,
+    "describable_type": "App\\Models\\Space",
+    "meta_key": "recurring_reservations_billed_for_september_2023",
+    "meta_value": "1",
+    "created_at": "2023-09-01 06:23:31",
+    "updated_at": "2023-09-01 06:23:31"
+   },
+   {
+    "id": 2209102603,
+    "describable_id": 805,
+    "describable_type": "App\\Models\\Space",
+    "meta_key": "recurring_reservations_billed_for_september_2024",
+    "meta_value": "1",
+    "created_at": "2024-09-01 06:22:22",
+    "updated_at": "2024-09-01 06:22:22"
+   },
+   {
+    "id": 2463365740,
+    "describable_id": 805,
+    "describable_type": "App\\Models\\Space",
+    "meta_key": "recurring_reservations_billed_for_september_2025",
+    "meta_value": "1",
+    "created_at": "2025-09-01 06:22:02",
+    "updated_at": "2025-09-01 06:22:02"
+   },
+   {
+    "id": 2675617219,
+    "describable_id": 805,
+    "describable_type": "App\\Models\\Space",
+    "meta_key": "recurring_reservations_billed_for_september_2026",
+    "meta_value": "1",
+    "created_at": "2026-09-01 06:21:44",
+    "updated_at": "2026-09-01 06:21:44"
+   },
+   {
+    "id": 740204478,
+    "describable_id": 805,
+    "describable_type": "App\\Models\\Space",
+    "meta_key": "recurring_reservations_estimate_email_sent_for_april_2021",
+    "meta_value": "1",
+    "created_at": "2021-03-28 13:31:12",
+    "updated_at": "2021-03-28 13:31:12"
+   },
+   {
+    "id": 1288998286,
+    "describable_id": 805,
+    "describable_type": "App\\Models\\Space",
+    "meta_key": "recurring_reservations_estimate_email_sent_for_april_2022",
+    "meta_value": "1",
+    "created_at": "2022-03-28 13:30:40",
+    "updated_at": "2022-03-28 13:30:40"
+   },
+   {
+    "id": 1691479641,
+    "describable_id": 805,
+    "describable_type": "App\\Models\\Space",
+    "meta_key": "recurring_reservations_estimate_email_sent_for_april_2023",
+    "meta_value": "1",
+    "created_at": "2023-03-28 13:31:09",
+    "updated_at": "2023-03-28 13:31:09"
+   },
+   {
+    "id": 2040135720,
+    "describable_id": 805,
+    "describable_type": "App\\Models\\Space",
+    "meta_key": "recurring_reservations_estimate_email_sent_for_april_2024",
+    "meta_value": "1",
+    "created_at": "2024-03-28 13:31:28",
+    "updated_at": "2024-03-28 13:31:28"
+   },
+   {
+    "id": 2361437234,
+    "describable_id": 805,
+    "describable_type": "App\\Models\\Space",
+    "meta_key": "recurring_reservations_estimate_email_sent_for_april_2025",
+    "meta_value": "1",
+    "created_at": "2025-03-28 13:32:05",
+    "updated_at": "2025-03-28 13:32:05"
+   },
+   {
+    "id": 2586377909,
+    "describable_id": 805,
+    "describable_type": "App\\Models\\Space",
+    "meta_key": "recurring_reservations_estimate_email_sent_for_april_2026",
+    "meta_value": "1",
+    "created_at": "2026-03-28 13:30:58",
+    "updated_at": "2026-03-28 13:30:58"
+   },
+   {
+    "id": 470746180,
+    "describable_id": 805,
+    "describable_type": "App\\Models\\Space",
+    "meta_key": "recurring_reservations_estimate_email_sent_for_august_2020",
+    "meta_value": "1",
+    "created_at": "2020-07-28 13:30:14",
+    "updated_at": "2020-07-28 13:30:14"
+   },
+   {
+    "id": 913984601,
+    "describable_id": 805,
+    "describable_type": "App\\Models\\Space",
+    "meta_key": "recurring_reservations_estimate_email_sent_for_august_2021",
+    "meta_value": "1",
+    "created_at": "2021-07-28 13:30:58",
+    "updated_at": "2021-07-28 13:30:58"
+   },
+   {
+    "id": 1464092456,
+    "describable_id": 805,
+    "describable_type": "App\\Models\\Space",
+    "meta_key": "recurring_reservations_estimate_email_sent_for_august_2022",
+    "meta_value": "1",
+    "created_at": "2022-07-28 13:30:34",
+    "updated_at": "2022-07-28 13:30:34"
+   },
+   {
+    "id": 1803148286,
+    "describable_id": 805,
+    "describable_type": "App\\Models\\Space",
+    "meta_key": "recurring_reservations_estimate_email_sent_for_august_2023",
+    "meta_value": "1",
+    "created_at": "2023-07-28 13:30:28",
+    "updated_at": "2023-07-28 13:30:28"
+   },
+   {
+    "id": 2174901884,
+    "describable_id": 805,
+    "describable_type": "App\\Models\\Space",
+    "meta_key": "recurring_reservations_estimate_email_sent_for_august_2024",
+    "meta_value": "1",
+    "created_at": "2024-07-28 13:32:03",
+    "updated_at": "2024-07-28 13:32:03"
+   },
+   {
+    "id": 2439553692,
+    "describable_id": 805,
+    "describable_type": "App\\Models\\Space",
+    "meta_key": "recurring_reservations_estimate_email_sent_for_august_2025",
+    "meta_value": "1",
+    "created_at": "2025-07-28 13:31:57",
+    "updated_at": "2025-07-28 13:31:57"
+   },
+   {
+    "id": 2656455291,
+    "describable_id": 805,
+    "describable_type": "App\\Models\\Space",
+    "meta_key": "recurring_reservations_estimate_email_sent_for_august_2026",
+    "meta_value": "1",
+    "created_at": "2026-07-28 13:31:35",
+    "updated_at": "2026-07-28 13:31:35"
+   },
+   {
+    "id": 599937761,
+    "describable_id": 805,
+    "describable_type": "App\\Models\\Space",
+    "meta_key": "recurring_reservations_estimate_email_sent_for_december_2020",
+    "meta_value": "1",
+    "created_at": "2020-11-27 14:30:43",
+    "updated_at": "2020-11-27 14:30:43"
+   },
+   {
+    "id": 1092541235,
+    "describable_id": 805,
+    "describable_type": "App\\Models\\Space",
+    "meta_key": "recurring_reservations_estimate_email_sent_for_december_2021",
+    "meta_value": "1",
+    "created_at": "2021-11-27 14:33:05",
+    "updated_at": "2021-11-27 14:33:05"
+   },
+   {
+    "id": 1578659390,
+    "describable_id": 805,
+    "describable_type": "App\\Models\\Space",
+    "meta_key": "recurring_reservations_estimate_email_sent_for_december_2022",
+    "meta_value": "1",
+    "created_at": "2022-11-27 14:30:48",
+    "updated_at": "2022-11-27 14:30:48"
+   },
+   {
+    "id": 1917983103,
+    "describable_id": 805,
+    "describable_type": "App\\Models\\Space",
+    "meta_key": "recurring_reservations_estimate_email_sent_for_december_2023",
+    "meta_value": "1",
+    "created_at": "2023-11-27 14:32:38",
+    "updated_at": "2023-11-27 14:32:38"
+   },
+   {
+    "id": 2277109262,
+    "describable_id": 805,
+    "describable_type": "App\\Models\\Space",
+    "meta_key": "recurring_reservations_estimate_email_sent_for_december_2024",
+    "meta_value": "1",
+    "created_at": "2024-11-27 14:35:15",
+    "updated_at": "2024-11-27 14:35:15"
+   },
+   {
+    "id": 2515629124,
+    "describable_id": 805,
+    "describable_type": "App\\Models\\Space",
+    "meta_key": "recurring_reservations_estimate_email_sent_for_december_2025",
+    "meta_value": "1",
+    "created_at": "2025-11-27 14:31:23",
+    "updated_at": "2025-11-27 14:31:23"
+   },
+   {
+    "id": 663817413,
+    "describable_id": 805,
+    "describable_type": "App\\Models\\Space",
+    "meta_key": "recurring_reservations_estimate_email_sent_for_february_2021",
+    "meta_value": "1",
+    "created_at": "2021-01-28 14:31:52",
+    "updated_at": "2021-01-28 14:31:52"
+   },
+   {
+    "id": 1187827044,
+    "describable_id": 805,
+    "describable_type": "App\\Models\\Space",
+    "meta_key": "recurring_reservations_estimate_email_sent_for_february_2022",
+    "meta_value": "1",
+    "created_at": "2022-01-28 14:31:19",
+    "updated_at": "2022-01-28 14:31:19"
+   },
+   {
+    "id": 1636659257,
+    "describable_id": 805,
+    "describable_type": "App\\Models\\Space",
+    "meta_key": "recurring_reservations_estimate_email_sent_for_february_2023",
+    "meta_value": "1",
+    "created_at": "2023-01-28 14:30:55",
+    "updated_at": "2023-01-28 14:30:55"
+   },
+   {
+    "id": 1977262449,
+    "describable_id": 805,
+    "describable_type": "App\\Models\\Space",
+    "meta_key": "recurring_reservations_estimate_email_sent_for_february_2024",
+    "meta_value": "1",
+    "created_at": "2024-01-28 14:30:50",
+    "updated_at": "2024-01-28 14:30:50"
+   },
+   {
+    "id": 2320664272,
+    "describable_id": 805,
+    "describable_type": "App\\Models\\Space",
+    "meta_key": "recurring_reservations_estimate_email_sent_for_february_2025",
+    "meta_value": "1",
+    "created_at": "2025-01-28 14:31:54",
+    "updated_at": "2025-01-28 14:31:54"
+   },
+   {
+    "id": 2552729903,
+    "describable_id": 805,
+    "describable_type": "App\\Models\\Space",
+    "meta_key": "recurring_reservations_estimate_email_sent_for_february_2026",
+    "meta_value": "1",
+    "created_at": "2026-01-28 14:30:48",
+    "updated_at": "2026-01-28 14:30:48"
+   },
+   {
+    "id": 631294286,
+    "describable_id": 805,
+    "describable_type": "App\\Models\\Space",
+    "meta_key": "recurring_reservations_estimate_email_sent_for_january_2021",
+    "meta_value": "1",
+    "created_at": "2020-12-28 14:30:08",
+    "updated_at": "2020-12-28 14:30:08"
+   },
+   {
+    "id": 1141235995,
+    "describable_id": 805,
+    "describable_type": "App\\Models\\Space",
+    "meta_key": "recurring_reservations_estimate_email_sent_for_january_2022",
+    "meta_value": "1",
+    "created_at": "2021-12-28 14:31:51",
+    "updated_at": "2021-12-28 14:31:51"
+   },
+   {
+    "id": 1607491033,
+    "describable_id": 805,
+    "describable_type": "App\\Models\\Space",
+    "meta_key": "recurring_reservations_estimate_email_sent_for_january_2023",
+    "meta_value": "1",
+    "created_at": "2022-12-28 14:30:35",
+    "updated_at": "2022-12-28 14:30:35"
+   },
+   {
+    "id": 1946941772,
+    "describable_id": 805,
+    "describable_type": "App\\Models\\Space",
+    "meta_key": "recurring_reservations_estimate_email_sent_for_january_2024",
+    "meta_value": "1",
+    "created_at": "2023-12-28 14:31:36",
+    "updated_at": "2023-12-28 14:31:36"
+   },
+   {
+    "id": 2299323403,
+    "describable_id": 805,
+    "describable_type": "App\\Models\\Space",
+    "meta_key": "recurring_reservations_estimate_email_sent_for_january_2025",
+    "meta_value": "1",
+    "created_at": "2024-12-28 14:31:29",
+    "updated_at": "2024-12-28 14:31:29"
+   },
+   {
+    "id": 2533956376,
+    "describable_id": 805,
+    "describable_type": "App\\Models\\Space",
+    "meta_key": "recurring_reservations_estimate_email_sent_for_january_2026",
+    "meta_value": "1",
+    "created_at": "2025-12-28 14:30:59",
+    "updated_at": "2025-12-28 14:30:59"
+   },
+   {
+    "id": 445717340,
+    "describable_id": 805,
+    "describable_type": "App\\Models\\Space",
+    "meta_key": "recurring_reservations_estimate_email_sent_for_july_2020",
+    "meta_value": "1",
+    "created_at": "2020-06-27 13:30:09",
+    "updated_at": "2020-06-27 13:30:09"
+   },
+   {
+    "id": 869205382,
+    "describable_id": 805,
+    "describable_type": "App\\Models\\Space",
+    "meta_key": "recurring_reservations_estimate_email_sent_for_july_2021",
+    "meta_value": "1",
+    "created_at": "2021-06-27 13:30:52",
+    "updated_at": "2021-06-27 13:30:52"
+   },
+   {
+    "id": 1438444157,
+    "describable_id": 805,
+    "describable_type": "App\\Models\\Space",
+    "meta_key": "recurring_reservations_estimate_email_sent_for_july_2022",
+    "meta_value": "1",
+    "created_at": "2022-06-27 13:30:39",
+    "updated_at": "2022-06-27 13:30:39"
+   },
+   {
+    "id": 1778220263,
+    "describable_id": 805,
+    "describable_type": "App\\Models\\Space",
+    "meta_key": "recurring_reservations_estimate_email_sent_for_july_2023",
+    "meta_value": "1",
+    "created_at": "2023-06-27 13:31:35",
+    "updated_at": "2023-06-27 13:31:35"
+   },
+   {
+    "id": 2140309426,
+    "describable_id": 805,
+    "describable_type": "App\\Models\\Space",
+    "meta_key": "recurring_reservations_estimate_email_sent_for_july_2024",
+    "meta_value": "1",
+    "created_at": "2024-06-27 13:33:36",
+    "updated_at": "2024-06-27 13:33:36"
+   },
+   {
+    "id": 2418995822,
+    "describable_id": 805,
+    "describable_type": "App\\Models\\Space",
+    "meta_key": "recurring_reservations_estimate_email_sent_for_july_2025",
+    "meta_value": "1",
+    "created_at": "2025-06-27 13:31:59",
+    "updated_at": "2025-06-27 13:31:59"
+   },
+   {
+    "id": 2638910412,
+    "describable_id": 805,
+    "describable_type": "App\\Models\\Space",
+    "meta_key": "recurring_reservations_estimate_email_sent_for_july_2026",
+    "meta_value": "1",
+    "created_at": "2026-06-27 13:31:17",
+    "updated_at": "2026-06-27 13:31:17"
+   },
+   {
+    "id": 422357470,
+    "describable_id": 805,
+    "describable_type": "App\\Models\\Space",
+    "meta_key": "recurring_reservations_estimate_email_sent_for_june_2020",
+    "meta_value": "1",
+    "created_at": "2020-05-28 13:30:10",
+    "updated_at": "2020-05-28 13:30:10"
+   },
+   {
+    "id": 825667810,
+    "describable_id": 805,
+    "describable_type": "App\\Models\\Space",
+    "meta_key": "recurring_reservations_estimate_email_sent_for_june_2021",
+    "meta_value": "1",
+    "created_at": "2021-05-28 13:30:50",
+    "updated_at": "2021-05-28 13:30:50"
+   },
+   {
+    "id": 1399599642,
+    "describable_id": 805,
+    "describable_type": "App\\Models\\Space",
+    "meta_key": "recurring_reservations_estimate_email_sent_for_june_2022",
+    "meta_value": "1",
+    "created_at": "2022-05-28 13:30:37",
+    "updated_at": "2022-05-28 13:30:37"
+   },
+   {
+    "id": 1749969563,
+    "describable_id": 805,
+    "describable_type": "App\\Models\\Space",
+    "meta_key": "recurring_reservations_estimate_email_sent_for_june_2023",
+    "meta_value": "1",
+    "created_at": "2023-05-28 13:30:31",
+    "updated_at": "2023-05-28 13:30:31"
+   },
+   {
+    "id": 2107070907,
+    "describable_id": 805,
+    "describable_type": "App\\Models\\Space",
+    "meta_key": "recurring_reservations_estimate_email_sent_for_june_2024",
+    "meta_value": "1",
+    "created_at": "2024-05-28 13:31:40",
+    "updated_at": "2024-05-28 13:31:40"
+   },
+   {
+    "id": 2399527227,
+    "describable_id": 805,
+    "describable_type": "App\\Models\\Space",
+    "meta_key": "recurring_reservations_estimate_email_sent_for_june_2025",
+    "meta_value": "1",
+    "created_at": "2025-05-28 13:32:11",
+    "updated_at": "2025-05-28 13:32:11"
+   },
+   {
+    "id": 2621007596,
+    "describable_id": 805,
+    "describable_type": "App\\Models\\Space",
+    "meta_key": "recurring_reservations_estimate_email_sent_for_june_2026",
+    "meta_value": "1",
+    "created_at": "2026-05-28 13:30:49",
+    "updated_at": "2026-05-28 13:30:49"
+   },
+   {
+    "id": 697099832,
+    "describable_id": 805,
+    "describable_type": "App\\Models\\Space",
+    "meta_key": "recurring_reservations_estimate_email_sent_for_march_2021",
+    "meta_value": "1",
+    "created_at": "2021-02-25 14:31:10",
+    "updated_at": "2021-02-25 14:31:10"
+   },
+   {
+    "id": 1233467330,
+    "describable_id": 805,
+    "describable_type": "App\\Models\\Space",
+    "meta_key": "recurring_reservations_estimate_email_sent_for_march_2022",
+    "meta_value": "1",
+    "created_at": "2022-02-25 14:31:01",
+    "updated_at": "2022-02-25 14:31:01"
+   },
+   {
+    "id": 1663878020,
+    "describable_id": 805,
+    "describable_type": "App\\Models\\Space",
+    "meta_key": "recurring_reservations_estimate_email_sent_for_march_2023",
+    "meta_value": "1",
+    "created_at": "2023-02-25 14:31:34",
+    "updated_at": "2023-02-25 14:31:34"
+   },
+   {
+    "id": 2007632096,
+    "describable_id": 805,
+    "describable_type": "App\\Models\\Space",
+    "meta_key": "recurring_reservations_estimate_email_sent_for_march_2024",
+    "meta_value": "1",
+    "created_at": "2024-02-26 14:31:14",
+    "updated_at": "2024-02-26 14:31:14"
+   },
+   {
+    "id": 2340890149,
+    "describable_id": 805,
+    "describable_type": "App\\Models\\Space",
+    "meta_key": "recurring_reservations_estimate_email_sent_for_march_2025",
+    "meta_value": "1",
+    "created_at": "2025-02-25 14:31:44",
+    "updated_at": "2025-02-25 14:31:44"
+   },
+   {
+    "id": 2568914759,
+    "describable_id": 805,
+    "describable_type": "App\\Models\\Space",
+    "meta_key": "recurring_reservations_estimate_email_sent_for_march_2026",
+    "meta_value": "1",
+    "created_at": "2026-02-25 14:30:56",
+    "updated_at": "2026-02-25 14:30:56"
+   },
+   {
+    "id": 395236513,
+    "describable_id": 805,
+    "describable_type": "App\\Models\\Space",
+    "meta_key": "recurring_reservations_estimate_email_sent_for_may_2020",
+    "meta_value": "1",
+    "created_at": "2020-04-27 13:30:11",
+    "updated_at": "2020-04-27 13:30:11"
+   },
+   {
+    "id": 780788934,
+    "describable_id": 805,
+    "describable_type": "App\\Models\\Space",
+    "meta_key": "recurring_reservations_estimate_email_sent_for_may_2021",
+    "meta_value": "1",
+    "created_at": "2021-04-27 13:31:30",
+    "updated_at": "2021-04-27 13:31:30"
+   },
+   {
+    "id": 1346267533,
+    "describable_id": 805,
+    "describable_type": "App\\Models\\Space",
+    "meta_key": "recurring_reservations_estimate_email_sent_for_may_2022",
+    "meta_value": "1",
+    "created_at": "2022-04-27 13:30:31",
+    "updated_at": "2022-04-27 13:30:31"
+   },
+   {
+    "id": 1720712478,
+    "describable_id": 805,
+    "describable_type": "App\\Models\\Space",
+    "meta_key": "recurring_reservations_estimate_email_sent_for_may_2023",
+    "meta_value": "1",
+    "created_at": "2023-04-27 13:31:20",
+    "updated_at": "2023-04-27 13:31:20"
+   },
+   {
+    "id": 2073137853,
+    "describable_id": 805,
+    "describable_type": "App\\Models\\Space",
+    "meta_key": "recurring_reservations_estimate_email_sent_for_may_2024",
+    "meta_value": "1",
+    "created_at": "2024-04-27 13:31:19",
+    "updated_at": "2024-04-27 13:31:19"
+   },
+   {
+    "id": 2380454876,
+    "describable_id": 805,
+    "describable_type": "App\\Models\\Space",
+    "meta_key": "recurring_reservations_estimate_email_sent_for_may_2025",
+    "meta_value": "1",
+    "created_at": "2025-04-27 13:32:23",
+    "updated_at": "2025-04-27 13:32:23"
+   },
+   {
+    "id": 2603326479,
+    "describable_id": 805,
+    "describable_type": "App\\Models\\Space",
+    "meta_key": "recurring_reservations_estimate_email_sent_for_may_2026",
+    "meta_value": "1",
+    "created_at": "2026-04-27 13:31:06",
+    "updated_at": "2026-04-27 13:31:06"
+   },
+   {
+    "id": 567090501,
+    "describable_id": 805,
+    "describable_type": "App\\Models\\Space",
+    "meta_key": "recurring_reservations_estimate_email_sent_for_november_2020",
+    "meta_value": "1",
+    "created_at": "2020-10-28 13:30:43",
+    "updated_at": "2020-10-28 13:30:43"
+   },
+   {
+    "id": 1045693278,
+    "describable_id": 805,
+    "describable_type": "App\\Models\\Space",
+    "meta_key": "recurring_reservations_estimate_email_sent_for_november_2021",
+    "meta_value": "1",
+    "created_at": "2021-10-28 13:33:06",
+    "updated_at": "2021-10-28 13:33:06"
+   },
+   {
+    "id": 1549583017,
+    "describable_id": 805,
+    "describable_type": "App\\Models\\Space",
+    "meta_key": "recurring_reservations_estimate_email_sent_for_november_2022",
+    "meta_value": "1",
+    "created_at": "2022-10-28 13:30:34",
+    "updated_at": "2022-10-28 13:30:34"
+   },
+   {
+    "id": 1890211182,
+    "describable_id": 805,
+    "describable_type": "App\\Models\\Space",
+    "meta_key": "recurring_reservations_estimate_email_sent_for_november_2023",
+    "meta_value": "1",
+    "created_at": "2023-10-28 13:31:50",
+    "updated_at": "2023-10-28 13:31:50"
+   },
+   {
+    "id": 2254187527,
+    "describable_id": 805,
+    "describable_type": "App\\Models\\Space",
+    "meta_key": "recurring_reservations_estimate_email_sent_for_november_2024",
+    "meta_value": "1",
+    "created_at": "2024-10-28 13:32:44",
+    "updated_at": "2024-10-28 13:32:44"
+   },
+   {
+    "id": 2498302416,
+    "describable_id": 805,
+    "describable_type": "App\\Models\\Space",
+    "meta_key": "recurring_reservations_estimate_email_sent_for_november_2025",
+    "meta_value": "1",
+    "created_at": "2025-10-28 13:31:46",
+    "updated_at": "2025-10-28 13:31:46"
+   },
+   {
+    "id": 534843163,
+    "describable_id": 805,
+    "describable_type": "App\\Models\\Space",
+    "meta_key": "recurring_reservations_estimate_email_sent_for_october_2020",
+    "meta_value": "1",
+    "created_at": "2020-09-27 13:31:03",
+    "updated_at": "2020-09-27 13:31:03"
+   },
+   {
+    "id": 1000315868,
+    "describable_id": 805,
+    "describable_type": "App\\Models\\Space",
+    "meta_key": "recurring_reservations_estimate_email_sent_for_october_2021",
+    "meta_value": "1",
+    "created_at": "2021-09-27 13:32:10",
+    "updated_at": "2021-09-27 13:32:10"
+   },
+   {
+    "id": 1519872525,
+    "describable_id": 805,
+    "describable_type": "App\\Models\\Space",
+    "meta_key": "recurring_reservations_estimate_email_sent_for_october_2022",
+    "meta_value": "1",
+    "created_at": "2022-09-27 13:30:30",
+    "updated_at": "2022-09-27 13:30:30"
+   },
+   {
+    "id": 1861301275,
+    "describable_id": 805,
+    "describable_type": "App\\Models\\Space",
+    "meta_key": "recurring_reservations_estimate_email_sent_for_october_2023",
+    "meta_value": "1",
+    "created_at": "2023-09-27 13:31:17",
+    "updated_at": "2023-09-27 13:31:17"
+   },
+   {
+    "id": 2230291906,
+    "describable_id": 805,
+    "describable_type": "App\\Models\\Space",
+    "meta_key": "recurring_reservations_estimate_email_sent_for_october_2024",
+    "meta_value": "1",
+    "created_at": "2024-09-27 13:32:32",
+    "updated_at": "2024-09-27 13:32:32"
+   },
+   {
+    "id": 2480127783,
+    "describable_id": 805,
+    "describable_type": "App\\Models\\Space",
+    "meta_key": "recurring_reservations_estimate_email_sent_for_october_2025",
+    "meta_value": "1",
+    "created_at": "2025-09-27 13:31:41",
+    "updated_at": "2025-09-27 13:31:41"
+   },
+   {
+    "id": 2689919772,
+    "describable_id": 805,
+    "describable_type": "App\\Models\\Space",
+    "meta_key": "recurring_reservations_estimate_email_sent_for_october_2026",
+    "meta_value": "1",
+    "created_at": "2026-09-27 13:30:52",
+    "updated_at": "2026-09-27 13:30:52"
+   },
+   {
+    "id": 502528053,
+    "describable_id": 805,
+    "describable_type": "App\\Models\\Space",
+    "meta_key": "recurring_reservations_estimate_email_sent_for_september_2020",
+    "meta_value": "1",
+    "created_at": "2020-08-28 13:30:24",
+    "updated_at": "2020-08-28 13:30:24"
+   },
+   {
+    "id": 958262578,
+    "describable_id": 805,
+    "describable_type": "App\\Models\\Space",
+    "meta_key": "recurring_reservations_estimate_email_sent_for_september_2021",
+    "meta_value": "1",
+    "created_at": "2021-08-28 13:31:02",
+    "updated_at": "2021-08-28 13:31:02"
+   },
+   {
+    "id": 1491919853,
+    "describable_id": 805,
+    "describable_type": "App\\Models\\Space",
+    "meta_key": "recurring_reservations_estimate_email_sent_for_september_2022",
+    "meta_value": "1",
+    "created_at": "2022-08-28 13:30:32",
+    "updated_at": "2022-08-28 13:30:32"
+   },
+   {
+    "id": 1833250021,
+    "describable_id": 805,
+    "describable_type": "App\\Models\\Space",
+    "meta_key": "recurring_reservations_estimate_email_sent_for_september_2023",
+    "meta_value": "1",
+    "created_at": "2023-08-28 13:30:58",
+    "updated_at": "2023-08-28 13:30:58"
+   },
+   {
+    "id": 2206010091,
+    "describable_id": 805,
+    "describable_type": "App\\Models\\Space",
+    "meta_key": "recurring_reservations_estimate_email_sent_for_september_2024",
+    "meta_value": "1",
+    "created_at": "2024-08-28 13:32:34",
+    "updated_at": "2024-08-28 13:32:34"
+   },
+   {
+    "id": 2460888672,
+    "describable_id": 805,
+    "describable_type": "App\\Models\\Space",
+    "meta_key": "recurring_reservations_estimate_email_sent_for_september_2025",
+    "meta_value": "1",
+    "created_at": "2025-08-28 13:31:52",
+    "updated_at": "2025-08-28 13:31:52"
+   },
+   {
+    "id": 2673618401,
+    "describable_id": 805,
+    "describable_type": "App\\Models\\Space",
+    "meta_key": "recurring_reservations_estimate_email_sent_for_september_2026",
+    "meta_value": "1",
+    "created_at": "2026-08-28 13:31:06",
+    "updated_at": "2026-08-28 13:31:06"
+   },
+   {
+    "id": 1836358874,
+    "describable_id": 805,
+    "describable_type": "App\\Models\\Space",
+    "meta_key": "RemoteLockApi_enabled",
+    "meta_value": "0",
+    "created_at": "2023-08-31 14:20:41",
+    "updated_at": "2023-08-31 14:20:41"
+   },
+   {
+    "id": 1836358872,
+    "describable_id": 805,
+    "describable_type": "App\\Models\\Space",
+    "meta_key": "Salto_enabled",
+    "meta_value": "0",
+    "created_at": "2023-08-31 14:20:41",
+    "updated_at": "2023-08-31 14:20:41"
+   },
+   {
+    "id": 2611966550,
+    "describable_id": 805,
+    "describable_type": "App\\Models\\Space",
+    "meta_key": "schedule_button_title",
+    "meta_value": "Schedule a Tour",
+    "created_at": "2026-05-12 20:50:07",
+    "updated_at": "2026-05-12 20:50:07"
+   },
+   {
+    "id": 2611966551,
+    "describable_id": 805,
+    "describable_type": "App\\Models\\Space",
+    "meta_key": "schedule_page_title",
+    "meta_value": "Schedule a Tour",
+    "created_at": "2026-05-12 20:50:07",
+    "updated_at": "2026-05-12 20:50:07"
+   },
+   {
+    "id": 2671633769,
+    "describable_id": 805,
+    "describable_type": "App\\Models\\Space",
+    "meta_key": "show_default_members_in_directory",
+    "meta_value": "0",
+    "created_at": "2026-08-24 20:27:17",
+    "updated_at": "2026-08-24 20:27:17"
+   },
+   {
+    "id": 2045667654,
+    "describable_id": 805,
+    "describable_type": "App\\Models\\Space",
+    "meta_key": "show_donations_link",
+    "meta_value": "0",
+    "created_at": "2024-04-02 15:28:04",
+    "updated_at": "2024-04-02 15:28:04"
+   },
+   {
+    "id": 2611966549,
+    "describable_id": 805,
+    "describable_type": "App\\Models\\Space",
+    "meta_key": "show_hours_on_home_page",
+    "meta_value": "1",
+    "created_at": "2026-05-12 20:50:07",
+    "updated_at": "2026-05-12 20:50:07"
+   },
+   {
+    "id": 2611966548,
+    "describable_id": 805,
+    "describable_type": "App\\Models\\Space",
+    "meta_key": "show_location_on_home_page",
+    "meta_value": "1",
+    "created_at": "2026-05-12 20:50:07",
+    "updated_at": "2026-05-12 20:50:07"
+   },
+   {
+    "id": 1836358873,
+    "describable_id": 805,
+    "describable_type": "App\\Models\\Space",
+    "meta_key": "SmartThings_enabled",
+    "meta_value": "0",
+    "created_at": "2023-08-31 14:20:41",
+    "updated_at": "2023-08-31 14:20:41"
+   },
+   {
+    "id": 2671633772,
+    "describable_id": 805,
+    "describable_type": "App\\Models\\Space",
+    "meta_key": "space_hours",
+    "meta_value": "{\"monday\":{\"open\":\"9:00 AM\",\"close\":\"5:00 PM\"},\"tuesday\":{\"open\":\"9:00 AM\",\"close\":\"5:00 PM\"},\"wednesday\":{\"open\":\"9:00 AM\",\"close\":\"5:00 PM\"},\"thursday\":{\"open\":\"9:00 AM\",\"close\":\"5:00 PM\"},\"friday\":{\"open\":\"9:00 AM\",\"close\":\"5:00 PM\"},\"saturday\":{\"open\":null,\"close\":null},\"sunday\":{\"open\":null,\"close\":null}}",
+    "created_at": "2026-08-24 20:27:18",
+    "updated_at": "2026-08-24 20:27:18"
+   },
+   {
+    "id": 2698387947,
+    "describable_id": 805,
+    "describable_type": "App\\Models\\Space",
+    "meta_key": "wave_last_used",
+    "meta_value": "O:25:\"Illuminate\\Support\\Carbon\":3:{s:4:\"date\";s:26:\"2026-10-12 14:44:02.124174\";s:13:\"timezone_type\";i:3;s:8:\"timezone\";s:3:\"UTC\";}",
+    "created_at": "2026-10-12 14:44:02",
+    "updated_at": "2026-10-12 14:44:02"
+   },
+   {
+    "id": 2671633768,
+    "describable_id": 805,
+    "describable_type": "App\\Models\\Space",
+    "meta_key": "website",
+    "meta_value": "http://www.longmontpublicmedia.org",
+    "created_at": "2026-08-24 20:27:17",
+    "updated_at": "2026-08-24 20:27:17"
+   }
+  ],
+  "amenities": [
+   {
+    "id": 1,
+    "title": "24/7 Access",
+    "icon": "fa-door-open",
+    "icon_style": null,
+    "created_at": "2020-05-26 17:46:35",
+    "updated_at": "2020-05-26 17:46:35",
+    "pivot": {
+     "amenityable_id": 805,
+     "amenity_id": 1,
+     "amenityable_type": "App\\Models\\Space",
+     "price": 0,
+     "description": null,
+     "created_at": "2022-06-07T16:15:40.000000Z",
+     "updated_at": "2022-06-07T16:15:40.000000Z"
+    }
+   },
+   {
+    "id": 11,
+    "title": "Coffee",
+    "icon": "fa-mug-hot",
+    "icon_style": null,
+    "created_at": "2020-05-26 17:46:35",
+    "updated_at": "2020-05-26 17:46:35",
+    "pivot": {
+     "amenityable_id": 805,
+     "amenity_id": 11,
+     "amenityable_type": "App\\Models\\Space",
+     "price": 0,
+     "description": null,
+     "created_at": "2022-06-07T16:15:40.000000Z",
+     "updated_at": "2022-06-07T16:15:40.000000Z"
+    }
+   },
+   {
+    "id": 12,
+    "title": "Drinking Water",
+    "icon": "fa-glass-citrus",
+    "icon_style": null,
+    "created_at": "2020-05-26 17:46:35",
+    "updated_at": "2020-05-26 17:46:35",
+    "pivot": {
+     "amenityable_id": 805,
+     "amenity_id": 12,
+     "amenityable_type": "App\\Models\\Space",
+     "price": 0,
+     "description": null,
+     "created_at": "2022-06-07T16:15:40.000000Z",
+     "updated_at": "2022-06-07T16:15:40.000000Z"
+    }
+   },
+   {
+    "id": 15,
+    "title": "Filming Allowed",
+    "icon": "fa-camera-movie",
+    "icon_style": null,
+    "created_at": "2020-05-26 17:46:35",
+    "updated_at": "2020-05-26 17:46:35",
+    "pivot": {
+     "amenityable_id": 805,
+     "amenity_id": 15,
+     "amenityable_type": "App\\Models\\Space",
+     "price": 0,
+     "description": null,
+     "created_at": "2022-06-07T16:15:40.000000Z",
+     "updated_at": "2022-06-07T16:15:40.000000Z"
+    }
+   },
+   {
+    "id": 42,
+    "title": "Video Conference",
+    "icon": "fa-webcam",
+    "icon_style": null,
+    "created_at": "2020-05-26 17:46:35",
+    "updated_at": "2020-05-26 17:46:35",
+    "pivot": {
+     "amenityable_id": 805,
+     "amenity_id": 42,
+     "amenityable_type": "App\\Models\\Space",
+     "price": 0,
+     "description": null,
+     "created_at": "2021-07-06T14:12:40.000000Z",
+     "updated_at": "2022-06-07T16:15:40.000000Z"
+    }
+   },
+   {
+    "id": 44,
+    "title": "WiFi",
+    "icon": "fa-wifi",
+    "icon_style": null,
+    "created_at": "2020-05-26 17:46:35",
+    "updated_at": "2020-05-26 17:46:35",
+    "pivot": {
+     "amenityable_id": 805,
+     "amenity_id": 44,
+     "amenityable_type": "App\\Models\\Space",
+     "price": 0,
+     "description": null,
+     "created_at": "2021-07-06T14:12:17.000000Z",
+     "updated_at": "2022-06-07T16:15:40.000000Z"
+    }
+   }
+  ],
+  "brand": null
+ },
+ "partner": {
+  "id": 1,
+  "name": "Proximity",
+  "domain_certificate_id": 458,
+  "logo_light": 68462,
+  "logo_dark": 68463,
+  "powered_by_logo_light": 68464,
+  "powered_by_logo_dark": 68465,
+  "show_powered_by_proximity": 0,
+  "favicon_id": null,
+  "featured_image_id": null,
+  "color_primary": "#EE487C",
+  "color_primary_contrast": "#fff",
+  "color_secondary": "#F26C45",
+  "color_secondary_contrast": "#000",
+  "css": null,
+  "email_css": null,
+  "body_classes": null,
+  "phone": null,
+  "email": "hello@proximity.space",
+  "dispute_email": "disputes@beinproximity.com",
+  "privacy_email": "privacy@proximity.space",
+  "noreply_email": "noreply@proximity.space",
+  "address": "307 N 1st Street",
+  "address_2": null,
+  "locality": "Montrose",
+  "region_short": "CO",
+  "region": "Colorado",
+  "country_short": "US",
+  "country": "United States",
+  "postal_code": "81401",
+  "statement_descriptor": "Proximity",
+  "docs_site_url": "https://docs.proximity.space",
+  "marketing_site_url": "https://proximity.space",
+  "apps_landing_page_url": null,
+  "wave_url_prefix": "wave",
+  "tagline": null,
+  "home_hero_text": null,
+  "facebook_url": null,
+  "twitter_username": null,
+  "instagram_url": null,
+  "show_partner_spaces_on_map": 1,
+  "show_partner_spaces_in_apps": 1,
+  "show_non_partner_spaces_on_maps": 1,
+  "show_non_partner_spaces_in_apps": 1,
+  "created_at": "2023-07-05 22:06:20",
+  "updated_at": "2023-07-05 22:06:20",
+  "deleted_at": null,
+  "laravel_through_key": 1,
+  "primary": true,
+  "domain_certificate": {
+   "id": 458,
+   "host": "proximity.app",
+   "status": "ISSUED",
+   "aws_acm_id": null,
+   "aws_nginx_config_id": null,
+   "aws_tasker_session_id": null,
+   "root_wildcard": 1,
+   "shared_session_host": 1,
+   "auto_renew": 0,
+   "community": 1,
+   "expires_at": "2025-06-30 23:59:59",
+   "meta": {
+    "NS": "ns-287.awsdns-35.com"
+   },
+   "created_at": "2022-04-09T06:36:51.000000Z",
+   "updated_at": "2024-08-13T22:40:16.000000Z"
+  },
+  "favicon": null,
+  "featured_image": null
+ },
+ "platform": {
+  "stripePublishableKey": "pk_live_UC724DIiUXCgW6ki788Aj3eD",
+  "appUrl": "https://proximity.app/"
+ },
+ "Laravel": {
+  "csrfToken": "3PoIKtt069VBMEcZsV97Cm3OBsa49GwJe6Bm7Tfg"
+ },
+ "localizationDictionary": {
+  "[[spacename]] members": {
+   "content": "[[spaceName]] Members",
+   "auto_capitalize": true
+  },
+  "activate membership": {
+   "content": "activate membership",
+   "auto_capitalize": true
+  },
+  "active members this month": {
+   "content": "Active Members this Month",
+   "auto_capitalize": true
+  },
+  "add benefit": {
+   "content": "Add Benefit",
+   "auto_capitalize": true
+  },
+  "add initial punches to membership": {
+   "content": "Add initial punches to membership",
+   "auto_capitalize": true
+  },
+  "add member": {
+   "content": "Add Member",
+   "auto_capitalize": true
+  },
+  "add membership": {
+   "content": "Add Membership",
+   "auto_capitalize": true
+  },
+  "app fees paid by member": {
+   "content": "App Fees Paid by Member",
+   "auto_capitalize": true
+  },
+  "benefits": {
+   "content": "Benefits",
+   "auto_capitalize": true
+  },
+  "building": {
+   "content": "Building",
+   "auto_capitalize": true
+  },
+  "buildings": {
+   "content": "Buildings",
+   "auto_capitalize": true
+  },
+  "change membership": {
+   "content": "Change Membership",
+   "auto_capitalize": true
+  },
+  "choose a membership!": {
+   "content": "Choose a membership!",
+   "auto_capitalize": true
+  },
+  "contact manager to cancel": {
+   "content": "contact manager to cancel",
+   "auto_capitalize": true
+  },
+  "current membership": {
+   "content": "Current membership",
+   "auto_capitalize": true
+  },
+  "default membership": {
+   "content": "default membership",
+   "auto_capitalize": true
+  },
+  "downgrade membership": {
+   "content": "downgrade membership",
+   "auto_capitalize": true
+  },
+  "edit benefit": {
+   "content": "Edit Benefit",
+   "auto_capitalize": true
+  },
+  "edit member": {
+   "content": "Edit Member",
+   "auto_capitalize": true
+  },
+  "edit member-level permissions": {
+   "content": "Edit Member-level Permissions",
+   "auto_capitalize": true
+  },
+  "edit membership": {
+   "content": "Edit Membership",
+   "auto_capitalize": true
+  },
+  "enable member directory": {
+   "content": "Enable Member Directory",
+   "auto_capitalize": true
+  },
+  "filter logs by door, member, method or message": {
+   "content": "Filter logs by door, member, method or message",
+   "auto_capitalize": false
+  },
+  "filter transactions by member or description": {
+   "content": "Filter transactions by member or description",
+   "auto_capitalize": false
+  },
+  "find other members of the [[spacename]] community.": {
+   "content": "Find other members of the [[spaceName]] community.",
+   "auto_capitalize": false
+  },
+  "how many punches should be added to this member at each renewal?": {
+   "content": "How many punches should be added to this member at each renewal?",
+   "auto_capitalize": false
+  },
+  "how many punches should this member be topped off to at each renewal?": {
+   "content": "How many punches should this member be topped off to at each renewal?",
+   "auto_capitalize": false
+  },
+  "how often the membership will auto-renew and the member will be charged.": {
+   "content": "How often the membership will auto-renew and the member will be charged.",
+   "auto_capitalize": false
+  },
+  "I agree to the term length of this membership and I understand that I will not be able to change or cancel my membership for [[contractLength]] from [[changeDate]].": {
+   "content": "I agree to the term length of this membership and I understand that I will not be able to change or cancel my membership for [[contractLength]] from [[changeDate]].",
+   "auto_capitalize": false
+  },
+  "i agree to the term length of this membership and i understand that i will not be able to change or cancel my membership for [[contractlength]] from [[changedate]].": {
+   "content": "I agree to the term length of this membership and I understand that I will not be able to change or cancel my membership for [[contractLength]] from [[changeDate]].",
+   "auto_capitalize": false
+  },
+  "i agree to the term length of this membership and i understand that i will not be able to change or cancel my membership for [[contractlength]] from today.": {
+   "content": "I agree to the term length of this membership and I understand that I will not be able to change or cancel my membership for [[contractLength]] from today.",
+   "auto_capitalize": false
+  },
+  "if the member does not add a payment source by this date the membership will not be activated.": {
+   "content": "If the member does not add a payment source by this date the membership will not be activated.",
+   "auto_capitalize": false
+  },
+  "if you do not want all of your membership types to share that same pool, you can override them here.": {
+   "content": "If you do not want all of your membership types to share that same pool, you can override them here.",
+   "auto_capitalize": false
+  },
+  "if you would like to cancel your membership, please reach out to your community manager.": {
+   "content": "If you would like to cancel your membership, please reach out to your community manager.",
+   "auto_capitalize": false
+  },
+  "keys granted to a member are available to the member 24/7.": {
+   "content": "Keys granted to a member are available to the member 24/7.",
+   "auto_capitalize": false
+  },
+  "keys granted to member directly": {
+   "content": "Keys Granted to Member Directly",
+   "auto_capitalize": false
+  },
+  "keys included in membership": {
+   "content": "Keys Included in Membership",
+   "auto_capitalize": false
+  },
+  "keys included with a membership type may be limited by time and day.": {
+   "content": "Keys included with a membership type may be limited by time and day.",
+   "auto_capitalize": false
+  },
+  "loading member data ...": {
+   "content": "Loading member data ...",
+   "auto_capitalize": false
+  },
+  "loading members ...": {
+   "content": "Loading Members ...",
+   "auto_capitalize": false
+  },
+  "looking for affected memberships ...": {
+   "content": "Looking for affected memberships ...",
+   "auto_capitalize": false
+  },
+  "looking for memberships ...": {
+   "content": "Looking for memberships ...",
+   "auto_capitalize": false
+  },
+  "manage benefits": {
+   "content": "Manage Benefits",
+   "auto_capitalize": false
+  },
+  "manage member": {
+   "content": "Manage Member",
+   "auto_capitalize": false
+  },
+  "manage members": {
+   "content": "Manage Members",
+   "auto_capitalize": true
+  },
+  "manage memberships": {
+   "content": "Manage Memberships",
+   "auto_capitalize": true
+  },
+  "member": {
+   "content": "member",
+   "auto_capitalize": true
+  },
+  "member benefits": {
+   "content": "Member Benefits",
+   "auto_capitalize": true
+  },
+  "member check-in": {
+   "content": "Member Check-in",
+   "auto_capitalize": false
+  },
+  "member directories": {
+   "content": "member directories",
+   "auto_capitalize": true
+  },
+  "member directory": {
+   "content": "Member Directory",
+   "auto_capitalize": true
+  },
+  "member invoices": {
+   "content": "User Invoices",
+   "auto_capitalize": true
+  },
+  "member list": {
+   "content": "Member List",
+   "auto_capitalize": true
+  },
+  "member reservations": {
+   "content": "Member Reservations",
+   "auto_capitalize": true
+  },
+  "member roll": {
+   "content": "Member Roll",
+   "auto_capitalize": true
+  },
+  "members": {
+   "content": "members",
+   "auto_capitalize": true
+  },
+  "members (mtd)": {
+   "content": "Members (MTD)",
+   "auto_capitalize": false
+  },
+  "members who were active for part of the month before canceling will remain as part of the active member count until the following month.": {
+   "content": "Members who were active for part of the month before canceling will remain as part of the active member count until the following month.",
+   "auto_capitalize": false
+  },
+  "members.info.active.who": {
+   "content": "In most cases, anyone who utilizes your space, doors or internet is an active member. If you believe this is an exception, please provide a detailed explanation. We attempt to review requests within three business days, however in peak times it may take longer.",
+   "auto_capitalize": false
+  },
+  "members.info.consideredactive": {
+   "content": "You can give members access to specific keys outside of their membership. Adding a key to this member will give them 24/7 access to that key until you remove it. If they cancel their membership, keys will be revoked.",
+   "auto_capitalize": false
+  },
+  "membership": {
+   "content": "membership",
+   "auto_capitalize": true
+  },
+  "membership access": {
+   "content": "Membership Access",
+   "auto_capitalize": true
+  },
+  "membership deleted": {
+   "content": "Membership Deleted",
+   "auto_capitalize": true
+  },
+  "membership has been deleted": {
+   "content": "Membership has been deleted",
+   "auto_capitalize": false
+  },
+  "membership length": {
+   "content": "Membership Length",
+   "auto_capitalize": true
+  },
+  "membership options": {
+   "content": "Membership Options",
+   "auto_capitalize": true
+  },
+  "membership parameters": {
+   "content": "membership parameters",
+   "auto_capitalize": true
+  },
+  "membership type": {
+   "content": "Membership Type",
+   "auto_capitalize": true
+  },
+  "membership types": {
+   "content": "membership types",
+   "auto_capitalize": true
+  },
+  "membership under contract": {
+   "content": "membership under contract",
+   "auto_capitalize": true
+  },
+  "membership-level permissions": {
+   "content": "membership-level permissions",
+   "auto_capitalize": true
+  },
+  "membership.cancel.notallowed": {
+   "content": "You are not able to change or cancel your membership at [[spaceName]] because you are currently under a contract that expires at midnight on [[expiresAt]]. If you have any questions or need to discuss your membership terms, reach out to your community manager.",
+   "auto_capitalize": false
+  },
+  "membership.change-will-leave-team": {
+   "content": "Your membership is part of a team account. If you change or cancel your membership, you will become responsible for your own memberships, including any new charges, starting immediately. If you do not have a payment source associated with your account, you may be asked to enter payment information before you can change your membership.",
+   "auto_capitalize": false
+  },
+  "membership.edit.length.help.nonrecurring": {
+   "content": "After this time, the member will be downgraded to the [[defaultMembershipName]] level.",
+   "auto_capitalize": false
+  },
+  "membership.updated.confirmation": {
+   "content": "Your membership has been updated to <b>[[membershipClassName]]</b> ([[membershipCost]]). This status is active immediately",
+   "auto_capitalize": false
+  },
+  "memberships": {
+   "content": "memberships",
+   "auto_capitalize": true
+  },
+  "memberships found": {
+   "content": "memberships found",
+   "auto_capitalize": true
+  },
+  "my membership page description": {
+   "content": "My Membership Page Description",
+   "auto_capitalize": true
+  },
+  "my membership page title": {
+   "content": "My Membership Page Title",
+   "auto_capitalize": true
+  },
+  "my memberships": {
+   "content": "my memberships",
+   "auto_capitalize": true
+  },
+  "network access check-ins could be caused by computers, tablets, kindles, phones or other smart devices left in your space even when the member is not there.": {
+   "content": "Network Access check-ins could be caused by computers, tablets, kindles, phones or other smart devices left in your space even when the member is not there.",
+   "auto_capitalize": false
+  },
+  "new membership": {
+   "content": "New Membership",
+   "auto_capitalize": true
+  },
+  "no active members found this month.": {
+   "content": "No active members found this month.",
+   "auto_capitalize": true
+  },
+  "no membership": {
+   "content": "No membership",
+   "auto_capitalize": true
+  },
+  "no memberships found.": {
+   "content": "No memberships found.",
+   "auto_capitalize": true
+  },
+  "please set a category for this membership.": {
+   "content": "Please set a category for this membership.",
+   "auto_capitalize": true
+  },
+  "remove member": {
+   "content": "Remove Member",
+   "auto_capitalize": true
+  },
+  "resource.category.freetime.default": {
+   "content": "Note: This is the default amount of free time that will apply to all members of your space, including free members. You can adjust this pool on a per-membership level by visiting the Membership Parameters page from the category list.",
+   "auto_capitalize": false
+  },
+  "resource.category.freetime.moreinfo": {
+   "content": "This is a bucket of time that can be used to reserve any resource in this category. Once it is depleted, members will be able to reserve resources at their normal per-hour rate for the remainder of the month. (This will override any per-resource free time you have set.)",
+   "auto_capitalize": false
+  },
+  "restrict this benefit to certain memberships?": {
+   "content": "Restrict this benefit to certain memberships?",
+   "auto_capitalize": true
+  },
+  "restrict to certain memberships": {
+   "content": "Restrict to certain memberships",
+   "auto_capitalize": true
+  },
+  "room view": {
+   "content": "Room View",
+   "auto_capitalize": false
+  },
+  "search for the name or email of a member of your space to add them to the attendees list.": {
+   "content": "Search for the name or email of a member of your space to add them to the attendees list.",
+   "auto_capitalize": false
+  },
+  "see all available memberships": {
+   "content": "See All Available Memberships",
+   "auto_capitalize": true
+  },
+  "see memberships": {
+   "content": "See Memberships",
+   "auto_capitalize": true
+  },
+  "set up membership types": {
+   "content": "Set up Membership Types",
+   "auto_capitalize": false
+  },
+  "set up resources": {
+   "content": "Set up Resources",
+   "auto_capitalize": false
+  },
+  "show members of the [[membershipname]] level in the member directory?": {
+   "content": "Show members of the [[membershipName]] level in the Member Directory?",
+   "auto_capitalize": false
+  },
+  "sold out": {
+   "content": "Sold Out",
+   "auto_capitalize": true
+  },
+  "sort membership types": {
+   "content": "Sort Membership Types",
+   "auto_capitalize": true
+  },
+  "taxes can be deleted if they have never been applied to any invoices and can be archived if they are not assigned to any membership types, reservable resources, add-ons or custom charges.": {
+   "content": "Taxes can be deleted if they have never been applied to any invoices and can be archived if they are not assigned to any membership types, reservable resources, add-ons or custom charges.",
+   "auto_capitalize": false
+  },
+  "the member will be charged/active as soon as they add a payment source.": {
+   "content": "The member will be charged/active as soon as they add a payment source.",
+   "auto_capitalize": false
+  },
+  "this member has key access pending.": {
+   "content": "This member has key access pending.",
+   "auto_capitalize": false
+  },
+  "this member was deleted after checking in today.": {
+   "content": "This member was deleted after checking in today.",
+   "auto_capitalize": false
+  },
+  "this member will be counted as an active member at your space and will have access that comes with the membership type they are assigned.": {
+   "content": "This member will be counted as an active member at your space and will have access that comes with the membership type they are assigned.",
+   "auto_capitalize": false
+  },
+  "this member will be returned to a default membership at your space.": {
+   "content": "This member will be returned to a default membership at your space.",
+   "auto_capitalize": false
+  },
+  "this membership is subject to a contracted term length, however no contract will be activated unless you set it up on the next page.": {
+   "content": "This membership is subject to a contracted term length, however no contract will be activated unless you set it up on the next page.",
+   "auto_capitalize": false
+  },
+  "this membership type does not have access to the internet!": {
+   "content": "This membership type does not have access to the internet!",
+   "auto_capitalize": false
+  },
+  "this membership will be upgraded to [[membershipname]] if a payment source is added by [[startdate]].": {
+   "content": "This membership will be upgraded to [[membershipName]] if a payment source is added by [[startDate]].",
+   "auto_capitalize": false
+  },
+  "to unlink your membership, contact your community manager.": {
+   "content": "To unlink your membership, contact your community manager.",
+   "auto_capitalize": false
+  },
+  "unlink membership": {
+   "content": "Unlink Membership",
+   "auto_capitalize": true
+  },
+  "wave": {
+   "content": "Wave",
+   "auto_capitalize": true
+  },
+  "wave at": {
+   "content": "Wave at",
+   "auto_capitalize": true
+  },
+  "what kind of membership is this?": {
+   "content": "What kind of membership is this?",
+   "auto_capitalize": false
+  },
+  "when a member uses a punch, how long they will have access to your space on that punch.": {
+   "content": "When a member uses a punch, how long they will have access to your space on that punch.",
+   "auto_capitalize": false
+  },
+  "you can give members access to specific keys outside of their membership. adding a key to this member will give them 24/7 access to that key until you remove it. if they cancel their membership, keys will be revoked.": {
+   "content": "You can give members access to specific keys outside of their membership. Adding a key to this member will give them 24/7 access to that key until you remove it. If they cancel their membership, keys will be revoked.",
+   "auto_capitalize": false
+  },
+  "you have not indicated that you work for this company. a company will only appear in this space's business directory if one or more coworking members are listed as employees of the company.": {
+   "content": "You have not indicated that you work for this company. A company will only appear in this space's business directory if one or more coworking members are listed as employees of the company.",
+   "auto_capitalize": false
+  },
+  "your membership has been updated!": {
+   "content": "your membership has been updated!",
+   "auto_capitalize": true
+  },
+  "your membership has expired.": {
+   "content": "your membership has expired.",
+   "auto_capitalize": true
+  },
+  "your membership includes internet access.": {
+   "content": "Your membership includes internet access.",
+   "auto_capitalize": false
+  },
+  "your membership is set to change to [[membershipname]] on [[startdate]].": {
+   "content": "Your membership is set to change to [[membershipName]] on [[startDate]].",
+   "auto_capitalize": false
+  },
+  "your membership only allows you to book this resource [[maxdaysout]] out.": {
+   "content": "Your membership only allows you to book this resource [[maxDaysOut]] out.",
+   "auto_capitalize": false
+  },
+  "Your membership will change to [[membershipName]] if you enter a payment source before [[startDate]].": {
+   "content": "Your membership will change to [[membershipName]] if you enter a payment source before [[startDate]].",
+   "auto_capitalize": false
+  }
+ }
+}
