@@ -1,0 +1,182 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>TinkerCommons: open-source management for shared workshops</title>
+<meta name="description" content="TinkerCommons is a planned open-source system for makerspaces, hackerspaces and community media centers: members, dues, waivers, badges, bookings, door and tool access, one ledger. Pre-alpha: specification only, no runnable code yet.">
+<link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'%3E%3Crect width='32' height='32' rx='7' fill='%23a04a08'/%3E%3Cpath d='M8 10h16v4h-6v10h-4V14H8z' fill='%23fff'/%3E%3C/svg%3E">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<a class="skip" href="#main">Skip to content</a>
+<header class="top">
+  <div class="wrap">
+    <a class="brand" href="#top"><svg viewBox="0 0 32 32" aria-hidden="true"><rect width="32" height="32" rx="7" fill="currentColor" style="color:var(--accent)"/><path d="M8 10h16v4h-6v10h-4V14H8z" fill="#fff"/></svg>TinkerCommons</a>
+    <nav aria-label="Primary">
+      <ul>
+        <li><a href="#why">Why</a></li>
+        <li><a href="#access">How it works</a></li>
+        <li><a href="#principles">Principles</a></li>
+        <li><a href="#roadmap">Roadmap</a></li>
+        <li><a href="#status">Status</a></li>
+        <li><a href="https://github.com/scottconverse/tinkercommons">GitHub</a></li>
+      </ul>
+    </nav>
+  </div>
+</header>
+
+<main id="main">
+<div class="wrap hero" id="top">
+  <span class="pill">pre-alpha &middot; specification only</span>
+  <h1>One system for everyone who shares a workshop.</h1>
+  <p class="lead">TinkerCommons is a planned open-source system for makerspaces, hackerspaces, community media centers, public-access TV stations and tool libraries. Members, dues, waivers, badges, bookings, door and tool access, and one ledger that reconciles to Stripe, in place of the several tools a space usually stitches together.</p>
+  <div class="cta">
+    <a class="btn primary" href="https://github.com/scottconverse/tinkercommons/blob/main/docs/MASTER-SPEC.md">Read the spec</a>
+    <a class="btn secondary" href="https://github.com/scottconverse/tinkercommons">View on GitHub</a>
+  </div>
+  <div class="honest" role="note">
+    <strong>Nothing to install yet.</strong>
+    This repository holds research and a written specification. There is no runnable code, no release and no demo. Everything below describes what the spec says the system will do.
+  </div>
+</div>
+
+<section id="why"><div class="wrap">
+  <h2>Why it exists</h2>
+  <p class="sub">The project's research (25 commercial tools and 25 open-source repositories, per its synthesis) concludes that no product covers the shared core, and that open-source options are mostly one-space systems.</p>
+  <div class="grid">
+    <div class="card"><h3>Coworking platforms</h3><p>Handle doors and bookings, but per the research have no certifications, no metered billing and no classes.</p></div>
+    <div class="card"><h3>Makerspace tools</h3><p>Handle certifications and machine lockout, but are closed and priced from $64 to $960 a month; only one ships door access.</p></div>
+    <div class="card"><h3>Open source today</h3><p>Twenty-plus repositories, nearly all written by one hackerspace for itself, several with no licence file.</p></div>
+  </div>
+  <p class="sub mt">Read the full <a href="https://github.com/scottconverse/tinkercommons/blob/main/docs/research/00-SYNTHESIS.md">research synthesis</a>.</p>
+</div></section>
+
+<section id="access"><div class="wrap">
+  <h2>Access follows state</h2>
+  <p class="sub">The central design rule. A fob, phone or PIN works only while the member passes every check. The door or machine controller does not keep its own list of who is allowed, beyond a short offline cache.</p>
+  <ol class="gate">
+    <li>Active<small>membership is in good standing</small></li>
+    <li>Paid up<small>dues not overdue past the grace period</small></li>
+    <li>Waivered<small>waiver signed</small></li>
+    <li>Badged<small>holds the badge the device requires</small></li>
+  </ol>
+  <p class="result">Pass all four and the door opens or the machine powers on. Miss one and it stays shut. The access protocol controls door release and power enable only; emergency stops and machine safety interlocks are never routed through it.</p>
+  <p class="sub mt"><span class="tag">planned: v0.5</span> The protocol is to be published openly, with adapters for UniFi Access first, then Kisi, then one of Verkada or Genea, plus reference ESP32 firmware for tool interlocks. TinkerCommons keeps its own access events rather than ingesting a provider's logs.</p>
+</div></section>
+
+<section id="scope"><div class="wrap">
+  <h2>What the spec covers</h2>
+  <p class="sub">Every item is specified. None is built.</p>
+  <div class="grid">
+    <div class="card"><h3>Members and dues</h3><p>One record per person, membership classes, recurring dues through Stripe Billing, roles scoped per shop.</p></div>
+    <div class="card"><h3>Waivers and badges</h3><p>Versioned documents signed in-app with a stored PDF; certifications with expiry and grant evidence.</p></div>
+    <div class="card"><h3>Resources and bookings</h3><p>Studios, shops and machines booked from a phone under a per-resource, per-tier rule table, including included hours.</p></div>
+    <div class="card"><h3>One ledger</h3><p>Dues, bookings, metered tool use, consumables, classes, donations and cash in one ledger that reconciles to Stripe.</p></div>
+    <div class="card"><h3>Door and tool access</h3><p>Fobs, cards, PINs and phone keys tied to member state, with tool sessions billed by the minute.</p></div>
+    <div class="card"><h3>Reports and export</h3><p>Who is active or overdue, utilization, revenue by shop. Full CSV and JSON export of every table from the first version.</p></div>
+  </div>
+</div></section>
+
+<section id="principles"><div class="wrap">
+  <h2>Principles</h2>
+  <p class="sub">Eight rules from the spec. The design is not to violate them without changing the spec.</p>
+  <div class="grid">
+    <div class="card"><span class="num">01</span><h3>One of each</h3><p>One record per member, one ledger per space, one login.</p></div>
+    <div class="card"><span class="num">02</span><h3>Rules are data</h3><p>Pricing, included hours, booking windows and badge requirements are table rows, not code paths.</p></div>
+    <div class="card"><span class="num">03</span><h3>Access follows state</h3><p>Paid up, waivered, badged, or the door stays shut.</p></div>
+    <div class="card"><span class="num">04</span><h3>No card numbers</h3><p>Stripe holds payment methods; the system stores Stripe IDs.</p></div>
+    <div class="card"><span class="num">05</span><h3>Export from day one</h3><p>Not the lock-in it sets out to replace.</p></div>
+    <div class="card"><span class="num">06</span><h3>Self-host first</h3><p>One Docker command to install. Hosted is optional, never required.</p></div>
+    <div class="card"><span class="num">07</span><h3>Hardware is a plug-in</h3><p>A published protocol and adapters. No hardware is sold.</p></div>
+    <div class="card"><span class="num">08</span><h3>Proof before done</h3><p>Every version ships with acceptance tests passing on real data at a reference site.</p></div>
+  </div>
+</div></section>
+
+<section id="roadmap"><div class="wrap">
+  <h2>Version ladder</h2>
+  <p class="sub">Versions are sequential. All of these are planned; none has shipped. Source: section 9 of the <a href="https://github.com/scottconverse/tinkercommons/blob/main/docs/MASTER-SPEC.md">master spec</a>. No dates are committed.</p>
+  <ol class="ladder">
+    <li><span class="v">v0.1</span><span class="n">Foundation <span class="tag">first target</span></span><span class="d">Members, membership classes, Stripe dues, roles, audit log, full export, Docker install.</span></li>
+    <li><span class="v">v0.2</span><span class="n">Documents and badges</span><span class="d">Versioned waivers with in-app signing, badges with expiry and grant evidence.</span></li>
+    <li><span class="v">v0.3</span><span class="n">Resources and bookings</span><span class="d">Booking-rule table, phone calendar, recurring bookings, approvals, included hours.</span></li>
+    <li><span class="v">v0.4</span><span class="n">Ledger and payments</span><span class="d">Charge types, invoices, offline payments, taxes, credits, Stripe meters and Terminal.</span></li>
+    <li><span class="v">v0.5</span><span class="n">Access</span><span class="d">Published protocol, ESP32 firmware, UniFi and Kisi adapters, tool sessions billed by the minute.</span></li>
+    <li><span class="v">v0.6</span><span class="n">Classes and events</span><span class="d">Sessions, capacity, member pricing, attendance, classes that grant badges.</span></li>
+    <li><span class="v">v0.7</span><span class="n">Reports and importers</span><span class="d">Staff reports, email notices, Wild Apricot and CSV importers, public JSON API and webhooks.</span></li>
+    <li><span class="v">v0.8</span><span class="n">Hardening</span><span class="d">Privacy controls, tested restore, one-command upgrade, 2FA for staff, security review.</span></li>
+    <li><span class="v">v0.9</span><span class="n">Pilot</span><span class="d">Run alongside current tools at two reference sites for a full billing cycle.</span></li>
+    <li><span class="v">v1.0</span><span class="n">Release</span><span class="d">Everything above, with documentation, installer and migration guide.</span></li>
+    <li><span class="v">v2.0</span><span class="n">Full brief</span><span class="d">Equipment rental, governance, shop-captain UI, CivicCast intake, multi-location, gift cards.</span></li>
+    <li><span class="v">v3.0</span><span class="n">Beyond the brief</span><span class="d">Optional; to be decided after v2.0.</span></li>
+  </ol>
+  <p class="sub mt">Non-goals in every version: hosting chat or forums, selling hardware, a website builder, an accounting ledger beyond what reconciles to Stripe and exports to QuickBooks, replacing CivicCast's broadcast functions.</p>
+</div></section>
+
+<section id="stack"><div class="wrap">
+  <h2>Chosen stack</h2>
+  <p class="sub">Decided in the spec, not yet implemented.</p>
+  <div class="tablewrap"><table>
+    <thead><tr><th scope="col">Part</th><th scope="col">Choice</th></tr></thead>
+    <tbody>
+      <tr><td>Application</td><td>Python with Django</td></tr>
+      <tr><td>Access-controller service</td><td>FastAPI, sharing the Django database models in the same repo</td></tr>
+      <tr><td>Data</td><td>PostgreSQL, Redis</td></tr>
+      <tr><td>Front end</td><td>Django templates and htmx; responsive installable web portal; no native apps in 1.0</td></tr>
+      <tr><td>Payments</td><td>Stripe only</td></tr>
+      <tr><td>Install</td><td>Docker Compose</td></tr>
+      <tr><td>Licence</td><td>Apache-2.0</td></tr>
+    </tbody>
+  </table></div>
+</div></section>
+
+<section id="status"><div class="wrap">
+  <h2>Status</h2>
+  <div class="twocol">
+    <div>
+      <h3>Done</h3>
+      <ul class="plain">
+        <li>Research: Proximity teardown, commercial and open-source landscapes, doors, payments, migration and hosting.</li>
+        <li>Decisions: name, licence, stack, pilot order, door providers.</li>
+        <li>Master spec (version 0.2.0), a v0.1 plan and an implementation plan.</li>
+      </ul>
+    </div>
+    <div>
+      <h3>Not done</h3>
+      <ul class="plain">
+        <li>No code, no tests, no CI, no releases, no installer.</li>
+        <li>No hosted service or demo.</li>
+        <li>Next step in the project's state file: unit U1, a Django skeleton with Compose and a health endpoint.</li>
+      </ul>
+    </div>
+  </div>
+  <p class="sub mt">Reference sites named in the spec: TinkerMill and Longmont Public Media, both 501(c)(3) nonprofits in Longmont, Colorado. The spec says no records from either site are used; fixtures are to be synthetic.</p>
+</div></section>
+
+<section id="docs"><div class="wrap">
+  <h2>Read the documents</h2>
+  <p class="sub">All documents are Markdown in the repository and open on GitHub.</p>
+  <div class="grid">
+    <div class="card"><h3><a href="https://github.com/scottconverse/tinkercommons/blob/main/docs/MASTER-SPEC.md">Master spec</a></h3><p>The canonical specification and version ladder.</p></div>
+    <div class="card"><h3><a href="https://github.com/scottconverse/tinkercommons/blob/main/docs/plans/v0.1-plan.md">v0.1 plan</a></h3><p>Scope and units for the first increment.</p></div>
+    <div class="card"><h3><a href="https://github.com/scottconverse/tinkercommons/blob/main/docs/IMPLEMENTATION-PLAN.md">Implementation plan</a></h3><p>Unit order and rules of engagement.</p></div>
+    <div class="card"><h3><a href="https://github.com/scottconverse/tinkercommons/blob/main/docs/research/00-SYNTHESIS.md">Research synthesis</a></h3><p>The market and the gap. Four detailed reports sit beside it.</p></div>
+    <div class="card"><h3><a href="https://github.com/scottconverse/tinkercommons/blob/main/docs/UNIFI-ACCESS-API.md">UniFi Access API notes</a></h3><p>The first planned door provider.</p></div>
+    <div class="card"><h3><a href="https://github.com/scottconverse/tinkercommons/blob/main/docs/STATE.md">Project state</a></h3><p>What is done, next and blocked.</p></div>
+  </div>
+  <p class="sub mt">Questions or ideas: <a href="https://github.com/scottconverse/tinkercommons/issues">open an issue</a>. The repository has no contributing guide yet.</p>
+</div></section>
+</main>
+
+<footer>
+  <div class="wrap">
+    <div>TinkerCommons, pre-alpha. Licensed under <a href="https://github.com/scottconverse/tinkercommons/blob/main/LICENSE">Apache-2.0</a>.</div>
+    <ul>
+      <li><a href="https://github.com/scottconverse/tinkercommons">GitHub</a></li>
+      <li><a href="https://github.com/scottconverse/tinkercommons/issues">Issues</a></li>
+      <li><a href="#top">Back to top</a></li>
+    </ul>
+  </div>
+</footer>
+</body>
+</html>
